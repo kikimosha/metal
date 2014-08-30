@@ -1,0 +1,35 @@
+html, body {
+    background-color: #ffffff;
+    width: 100%;
+    color: #000000;
+    font: 13px/1.5 'Play', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #000000;
+    font: 13px/1.5 'Play', sans-serif;
+}
+
+.row {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+/*HEADER*/
+
+h1.title {
+    float: left;
+    margin: 0 0 0 45px;
+}
