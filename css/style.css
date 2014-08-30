@@ -28,7 +28,7 @@ p {
     font: 13px/1.5 'Segeo UI', sans-serif;
 }
 
-.row {
+.wrapper {
     width: 1024px;
     margin: 0 auto;
 }
@@ -43,7 +43,7 @@ p {
 
 /*HEADER*/
 
-h1.title {
+h1.logo {
     float: left;
     margin: 0 0 0 45px;
 }
