@@ -319,11 +319,11 @@ h1.logo span {
 }
 .warranty {
     background: url("../img/bg_garantee.png") repeat-x bottom center;
-    min-height: 500px;
+    min-height: 470px;
 }
 .warranty_list {
     padding: 0;
-    margin: 0;
+    margin: 15px 0 0 0;
 }
 .warranty_list li {
     background: url("../img/bg_warranty.png") no-repeat 0 0;
