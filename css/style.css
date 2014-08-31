@@ -382,6 +382,20 @@ h2.cl_dark_blue:before {
     background-color: #053763;
 }
 
+h2.cl_gold {
+    color: #ffaf00;
+    font-size: 72px;
+}
+
+h2.cl_gold:before {
+    background-color: #ffaf00;
+}
+
+h2.cl_gold {
+    font-size: 51px;
+    text-transform: uppercase;
+}
+
 .suitable {
     background: url("../img/bg_suitable.jpg") no-repeat center -30px;
     height: 960px;
@@ -429,12 +443,12 @@ h2.cl_white:before {
 }
 
 .ribbon-wrapper-red {
-    height: 104px;
+    height: 103px;
     overflow: hidden;
     position: absolute;
     right: 0;
     top: 0;
-    width: 104px;
+    width: 103px;
 }
 
 .ribbon-red:before {
@@ -545,6 +559,42 @@ h2.cl_white:before {
     background-image: url("../img/box_bg_4.png");
 }
 
+.box_bg_5 {
+    background-image: url("../img/box_bg_5.png");
+}
+
+.box_bg_6 {
+    background-image: url("../img/box_bg_6.png");
+}
+
+.box_bg_7 {
+    background-image: url("../img/box_bg_7.png");
+}
+
+.box_bg_6 {
+    background-image: url("../img/box_bg_6.png");
+}
+
+.box_bg_8 {
+    background-image: url("../img/box_bg_8.png");
+}
+
+.box_bg_9 {
+    background-image: url("../img/box_bg_9.png");
+}
+
+.box_bg_10 {
+    background-image: url("../img/box_bg_10.png");
+}
+
+.box_bg_11 {
+    background-image: url("../img/box_bg_11.png");
+}
+
+.box_bg_12 {
+    background-image: url("../img/box_bg_12.png");
+}
+
 .price {
     font-size: 24px;
     margin: -5px 0 0;
@@ -592,4 +642,15 @@ a.more{
 .box_2 a.more {
     border-color: #000000;
     color: #000000;
+}
+
+.clock {
+    margin: 10px 0 0;
+    background: url("../img/clock.png") no-repeat center center;
+    height: 150px;
+}
+
+.clock_date {
+    font: 36px 'Segoe_UI_bold', sans-serif;
+    margin: 40px 400px 0 0;
 }
