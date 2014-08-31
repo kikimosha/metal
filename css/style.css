@@ -255,6 +255,16 @@ h1.logo span {
     background: url("../img/stairs.png") no-repeat left 200px;
     height: 696px;
 }
+.counter_title {
+    color: #73849a;
+    font: 20px/1.5 'Seguisb', sans-serif;
+}
+.blue_arrow {
+    background: url("../img/offer_arrow.png") no-repeat left top;
+    width: 268px;
+    height: 239px;
+    margin: 30px 0 0 450px;
+}
 
 .title_normal {
     font: 42px 'Segoe_UI_light', sans-serif;

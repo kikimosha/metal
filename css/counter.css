@@ -1,12 +1,12 @@
 #container {
-	margin: 0 auto;
+	margin: 35px 0 0 70px;
 	width: 765px;
 	background-color: #ffffff;
 }
 
 #countdown_dashboard {
-	height: 115px;
-    width: 462px;
+	height: 125px;
+    width: 400px;
     margin: 0 auto;
 }
 
