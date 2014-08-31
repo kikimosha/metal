@@ -159,8 +159,9 @@ h1.logo span {
 
 .call_offer {
     height:39px;
+    line-height: 39px;
     display: inline-block;
-    font: 30px 'Segoe_UI_light', sans-serif;
+    font: 26px 'Segoe_UI_light', sans-serif;
     padding: 0 38px;
     background: url("../img/bg_btn_call.png") repeat-x center center;
     margin-top: 15px;
@@ -201,16 +202,37 @@ h1.logo span {
 
 .title_light {
     font: 29px 'Segoe_UI_light', sans-serif;
+    margin-bottom: 35px;
 }
 
 .bg_main {
     background: url("../img/bg_main.jpg") no-repeat center bottom;
-    height: 820px;
+    height: 827px;
 }
 
 .know_more {
     height: 82px;
+    line-height: 82px;
     display: inline-block;
     padding: 0 60px;
     font-size: 38px;
+    background: url("../img/bg_btn_know.png") repeat-x center center;
+}
+
+.why_clients {
+    border-top: 1px solid #8d8d8d;
+    border-bottom: 1px solid #8d8d8d;
+    background: url("../img/bg_why_clients.png") repeat;
+    height: 550px;
+}
+
+.title_normal {
+    font: 42px 'Segoe_UI_light', sans-serif;
+}
+
+.our_advantage li {
+    float: left;
+    width: 190px;
+    height: 420px;
+    padding-top: 190px;
 }
