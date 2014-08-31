@@ -40,6 +40,26 @@ p {
     visibility: hidden;
 }
 
+.btn_border {
+    border-radius: 10px;
+    border: 1px solid #d99100;
+    position:relative;
+    z-index:10
+}
+
+.btn_border:before {
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    border:1px solid #fadc8f;
+    border-radius: 10px;
+}
+
 /*HEADER*/
 
 header {
@@ -88,16 +108,15 @@ h1.logo span {
 }
 
 .call_offer {
+    height:39px;
     display: inline-block;
     font-size: 24px;
     font-weight: lighter;
     padding: 0 38px;
     background: url("../img/bg_btn_call.png") repeat-x center center;
-    border: 1px solid #d99100;
-    border-radius: 5px;
     margin-top: 15px;
     text-shadow: #ffc942 0 1px 1px;
-    box-shadow: inset 0 0 2px #fadc8f;
+    box-shadow: 1px 15px 10px #cfcfcf;
 }
 
 .line {
@@ -140,4 +159,11 @@ h1.logo span {
 .bg_main {
     background: url("../img/bg_main.jpg") no-repeat center bottom;
     height: 820px;
+}
+
+.know_more {
+    height: 82px;
+    display: inline-block;
+    padding: 0 60px;
+    font-size: 38px;
 }
