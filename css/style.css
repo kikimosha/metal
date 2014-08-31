@@ -252,7 +252,8 @@ h1.logo span {
 }
 
 .offer {
-    background: url("../img/stairs.png") no-repeat;
+    background: url("../img/stairs.png") no-repeat left 200px;
+    height: 696px;
 }
 
 .title_normal {
@@ -322,8 +323,8 @@ h2.cl_dark_blue:before {
 }
 
 .suitable {
-    background: url("../img/bg_suitable.jpg") no-repeat center center;
-    height: 1129px;
+    background: url("../img/bg_suitable.jpg") no-repeat bottom center;
+    height: 960px;
 }
 
 h2.cl_white {
@@ -359,7 +360,7 @@ h2.cl_white:before {
     text-align: left;
     text-transform: uppercase;
     font: 30px 'Segoe_UI_bold', sans-serif;
-    margin: 20px 0 0px 25px;
+    margin: 20px 0 0 25px;
     padding-bottom: 10px;
     width: 90%;
 }
