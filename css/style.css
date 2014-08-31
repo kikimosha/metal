@@ -1,20 +1,20 @@
-/*@font-face*/
-/*{*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
-    /*font-family: 'Segoe_UI';*/
-    /*src: url('../fonts/segoeui/segoeui.eot');*/
-    /*src: url('../fonts/segoeui/segoeui.eot?#iefix') format('embedded-opentype'),*/
-    /*url('../fonts/segoeui/segoeui.woff') format('woff'),*/
-    /*url('../fonts/segoeui/segoeui.ttf') format('truetype'),*/
-    /*url('../fonts/segoeui/segoeui.svg#webfont') format('svg');*/
-/*}*/
+@font-face
+{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI';
+    src: url('../fonts/segoeui/segoeui.eot');
+    src: url('../fonts/segoeui/segoeui.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeui/segoeui.woff') format('woff'),
+    url('../fonts/segoeui/segoeui.ttf') format('truetype'),
+    url('../fonts/segoeui/segoeui.svg#webfont') format('svg');
+}
 
 html, body {
     background-color: #ffffff;
     width: 100%;
     color: #000000;
-    font: 13px/1.5 'segoe ui', sans-serif;
+    font: 13px/1.5 'Segoe_UI', sans-serif;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 
 p {
     color: #000000;
-    font: 13px/1.5 'segoe ui', sans-serif;
+    font: 13px/1.5 'Segoe_UI', sans-serif;
 }
 
 .wrapper {
@@ -97,6 +97,11 @@ h1.logo span {
     border-radius: 5px;
     margin-top: 15px;
     text-shadow: #ffc942 0 1px 1px;
+    box-shadow: inset 0 0 2px #fadc8f;
+}
+
+.line {
+    border-top: 1px solid #8d8d8d;
 }
 
 .main_menu {
@@ -120,4 +125,19 @@ h1.logo span {
 
 .center {
     text-align: center;
+}
+
+.title_bold {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.title_light {
+    font-size: 29px;
+    font-weight: lighter;
+}
+
+.bg_main {
+    background: url("../img/bg_main.jpg") no-repeat center bottom;
+    height: 820px;
 }
