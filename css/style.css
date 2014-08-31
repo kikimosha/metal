@@ -256,7 +256,7 @@ h1.logo span {
     height: 696px;
 }
 .counter_title {
-    color: #73849a;
+    color: #18426a;
     font: 20px/1.5 'Seguisb', sans-serif;
 }
 .blue_arrow {
@@ -276,17 +276,19 @@ h1.logo span {
     width: 187px;
     height: 210px;
     padding-top: 210px;
-    margin-right: 22px;
+    margin-right: 40px;
     font-size: 24px;
     line-height: 30px;
     color: #053763;
     text-align: center;
 }
 
-.our_advantage li:last-child {
-    margin-right: 0;
+.our_advantage li:first-child {
+    margin-left: 40px;
 }
-
+/*.our_advantage li:last-child {*/
+    /*margin-right: 0;*/
+/*}*/
 .our_advantage li span {
     font-size: 28px;
 }
