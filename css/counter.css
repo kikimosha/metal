@@ -1,0 +1,58 @@
+#container {
+	margin: 0 auto;
+	width: 765px;
+	background-color: #ffffff;
+}
+
+#countdown_dashboard {
+	height: 115px;
+    width: 462px;
+    margin: 0 auto;
+}
+
+.dash {
+	width: 138px;
+	height: 96px;
+	float: left;
+	margin-left: 2px;
+	padding-left: 13px;
+	position: relative;
+	color: #ffffff;
+}
+
+.days_dash {
+	background: transparent url('../img/counter/dark_days_dash.png') 0 0 no-repeat;
+}
+.hours_dash {
+	background: transparent url('../img/counter/dark_hours_dash.png') 0 0 no-repeat;
+}
+.minutes_dash {
+	background: transparent url('../img/counter/dark_minutes_dash.png') 0 0 no-repeat;
+}
+.seconds_dash {
+    background: transparent url('../img/counter/dark_seconds_dash.png') 0 0 no-repeat;
+}
+
+.dash .digit {
+    font-family: 'Segoe_UI', sans-serif;
+    font-size: 80px;
+	font-weight: normal;
+    padding: 0 0 0 5px;
+	float: left;
+	width: 53px;
+	text-align: center;
+	position: relative;
+}
+
+.dash_title {
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    margin: 10px 38px;
+}
+
+#info_message {
+	background-color: #f0f9ff;
+	border: 1px solid #eef;
+	color: #247;
+}
