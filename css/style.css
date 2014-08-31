@@ -315,7 +315,7 @@ h1.logo span {
     background-color:#ffc603;
     margin: 15px auto 0 45px;
     text-shadow: #ffc942 0 1px 1px;
-    box-shadow: 1px 15px 10px #cfcfcf;
+    box-shadow: 1px 10px 5px #cfcfcf;
 }
 
 .title_normal {
@@ -402,7 +402,7 @@ h2.cl_white:before {
 }
 
 .suitable_box {
-    margin: 20px 90px;
+    margin: 20px 0;
 }
 
 .box {
@@ -411,7 +411,10 @@ h2.cl_white:before {
     border: 2px solid #ffffff;
     border-radius: 30px;
     float: left;
-    margin: 15px;
+    margin-right: 25px;
+}
+.box:last-child {
+    margin-right: 0;
 }
 
 .box_1 {
