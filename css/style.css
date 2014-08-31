@@ -312,3 +312,15 @@ h2.cl_dark_blue {
 h2.cl_dark_blue:before {
     background-color: #053763;
 }
+
+.suitable {
+    background: ;
+}
+
+h2.cl_white {
+    color: #ffffff;
+}
+
+h2.cl_white:before {
+    background-color: #ffffff;
+}
