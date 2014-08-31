@@ -317,6 +317,44 @@ h1.logo span {
     text-shadow: #ffc942 0 1px 1px;
     box-shadow: 1px 10px 5px #cfcfcf;
 }
+.warranty {
+    background: url("../img/bg_garantee.png") repeat-x bottom center;
+    min-height: 500px;
+}
+.warranty_list {
+    padding: 0;
+    margin: 0;
+}
+.warranty_list li {
+    background: url("../img/bg_warranty.png") no-repeat 0 0;
+    width: 292px;
+    height: 292px;
+    float: left;
+    margin-right: 4px;
+}
+.warranty_list li:last-child {
+    margin-right: 0;
+}
+.warr_li {
+    margin: 55px 0 0;
+    padding: 90px 55px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+.warranty_1 {
+    background: url("../img/warranty_1.png") no-repeat 51% 0;
+}
+.warranty_2 {
+    background: url("../img/warranty_2.png") no-repeat 51% 0;
+}
+.warranty_3 {
+    background: url("../img/warranty_3.png") no-repeat 54% 0;
+}
+.warranty_4 {
+    background: url("../img/warranty_4.png") no-repeat 50% 0;
+}
 
 .title_normal {
     font: 42px 'Segoe_UI_light', sans-serif;
