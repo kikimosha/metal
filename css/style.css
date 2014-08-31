@@ -114,6 +114,21 @@ p {
 
 h2 {
     font: 60px 'Segoe_UI_bold', sans-serif;
+    line-height: 43px;
+}
+
+h2:before {
+   display: block;
+   margin: 0 0 20px 10px;
+   content: "";
+   height: 4px;
+   width: 240px;
+}
+
+h2 span {
+    font: 49px 'Segoe_UI_light', sans-serif;
+    color: #000000;
+
 }
 
 /*HEADER*/
@@ -229,6 +244,7 @@ h1.logo span {
     border-bottom: 1px solid #8d8d8d;
     background: url("../img/bg_why_clients.png") repeat;
     height: 550px;
+    margin-bottom: 20px;
 }
 
 .title_normal {
@@ -239,7 +255,7 @@ h1.logo span {
 .our_advantage li {
     float: left;
     width: 187px;
-    height: 420px;
+    height: 210px;
     padding-top: 210px;
     margin-right: 22px;
     font-size: 24px;
@@ -279,4 +295,20 @@ li.adv_4 {
 
 li.adv_5 {
     background: url("../img/adv_5.png") no-repeat center top;
+}
+
+h2.cl_blue {
+    color: #009ae1;
+}
+
+h2.cl_blue:before {
+    background-color: #009ae1;
+}
+
+h2.cl_dark_blue {
+    color: #053763;
+}
+
+h2.cl_dark_blue:before {
+    background-color: #053763;
 }
