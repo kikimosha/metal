@@ -29,7 +29,6 @@
 	text-align: center;
 	position: relative;
     background: transparent url('../img/dash.png') 0 0 no-repeat;
-    box-shadow: 0 0 3px #ccc;
 }
 
 .dash_title {

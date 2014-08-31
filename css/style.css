@@ -68,6 +68,10 @@ html, body {
     color: #000000;
     font: 13px/1.5 'Segoe_UI', sans-serif;
 }
+.page {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
 a {
     text-decoration: none;
@@ -245,6 +249,10 @@ h1.logo span {
     background: url("../img/bg_why_clients.png") repeat;
     height: 550px;
     margin-bottom: 20px;
+}
+
+.offer {
+    background: url("../img/stairs.png") no-repeat;
 }
 
 .title_normal {
