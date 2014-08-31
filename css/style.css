@@ -402,7 +402,7 @@ h2.cl_white:before {
 }
 
 .suitable_box {
-    margin: 20px 10px;
+    margin: 20px 90px;
 }
 
 .box {
@@ -410,10 +410,20 @@ h2.cl_white:before {
     height: 682px;
     border: 2px solid #ffffff;
     border-radius: 30px;
+    float: left;
+    margin: 15px;
 }
 
 .box_1 {
     background-color: #ececec;
+}
+
+.box_2 {
+    background-color: #009ae1;
+}
+
+.box_3 {
+    background-color: #ffaf00;
 }
 
 .box h4 {
@@ -430,8 +440,18 @@ h2.cl_white:before {
     border-bottom: 1px solid #969696;
 }
 
+.box_2 h4 {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.box_3 h4 {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
 .box_img {
-    margin: 7px 0;
+    margin: 5px 0;
     text-align: center;
 }
 
@@ -453,6 +473,14 @@ h2.cl_white:before {
     color: #757575;
 }
 
+.box_2 .box_bg {
+    color: #ffffff;
+}
+
+.box_3 .box_bg {
+    color: #000000;
+}
+
 .box_bg_1 {
     background-image: url("../img/box_bg_1.png");
 }
@@ -471,16 +499,24 @@ h2.cl_white:before {
 
 .price {
     font-size: 24px;
-    margin: 0;
+    margin: -5px 0 0;
+    text-transform: uppercase;
 }
 
 .box_1 .price {
     color: #6d6d6d;
 }
 
+.box_2 .price {
+    color: #ffffff;
+}
+
+.box_1 .price {
+    color: #000000;
+}
+
 .price span {
     font: 36px 'Segoe_UI_bold', sans-serif;
-
 }
 
 a.more{
@@ -498,4 +534,14 @@ a.more{
 .box_1 a.more {
     border-color: #8e8e8e;
     color: #545454;
+}
+
+.box_2 a.more {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.box_2 a.more {
+    border-color: #000000;
+    color: #000000;
 }
