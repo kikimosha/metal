@@ -265,6 +265,58 @@ h1.logo span {
     height: 239px;
     margin: 30px 0 0 450px;
 }
+.box_offer {
+    margin: 110px 0 0 0;
+    float: right;
+    width: 350px;
+    height: 465px;
+    border: 1px solid #d0cfbd;
+    background: url("../img/bg_box_offer.gif") repeat 0 0;
+    border-radius: 30px;
+    padding: 25px 20px 10px;
+    box-shadow: 0 4px 0 #d9d9d9;
+}
+.box_offer h1 {
+    color: #053763;
+    font: 36px/41px 'Seguisb', sans-serif; /** checked **/
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.box_offer p {
+    text-align: center;
+    color: #000;
+    font: 30px 'Seguisb', sans-serif; /** checked **/
+}
+.box_offer p.light {
+    font: 24px 'Segoe_UI_light', sans-serif;
+}
+.box_offer span.blue {
+    color: #23a7e5;
+    text-transform: uppercase;
+}
+.box_offer form {
+    margin: 15px 0 0 0;
+}
+.box_offer form input {
+    border: solid 1px #b9b9b9;
+    color: #c4c4c4;
+    font-size: 17px;
+    width: 310px;
+    padding: 13px 20px;
+    margin: 5px 0;
+}
+.btn_offer {
+    height:52px;
+    line-height: 52px;
+    display: inline-block;
+    font: 32px 'Segoe_UI', sans-serif;
+    padding: 0 65px;
+    background-color:#ffc603;
+    margin: 15px auto 0 45px;
+    text-shadow: #ffc942 0 1px 1px;
+    box-shadow: 1px 15px 10px #cfcfcf;
+}
 
 .title_normal {
     font: 42px 'Segoe_UI_light', sans-serif;
@@ -286,9 +338,6 @@ h1.logo span {
 .our_advantage li:first-child {
     margin-left: 40px;
 }
-/*.our_advantage li:last-child {*/
-    /*margin-right: 0;*/
-/*}*/
 .our_advantage li span {
     font-size: 28px;
 }
