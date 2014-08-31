@@ -314,13 +314,50 @@ h2.cl_dark_blue:before {
 }
 
 .suitable {
-    background: ;
+    background: url("../img/bg_suitable.jpg") no-repeat center center;
+    height: 1129px;
 }
 
 h2.cl_white {
     color: #ffffff;
+    padding-top: 75px;
+    text-align: right;
 }
 
 h2.cl_white:before {
     background-color: #ffffff;
+}
+
+.suitaable_box {
+
+}
+
+.box {
+    width: 372px;
+    height: 682px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+.box_1 {
+    background-color: #ececec;
+}
+
+.box h4 {
+    text-align: left;
+    text-transform: uppercase;
+    font: 30px 'Segoe_UI_bold', sans-serif;
+    margin: 20px 0 0px 25px;
+    padding-bottom: 10px;
+    width: 90%;
+}
+
+.box_1 h4 {
+    color: #6d6d6d;
+    border-bottom: 1px solid #969696;
+}
+
+.box_img {
+    margin: 7px 0;
+    text-align: center;
 }
