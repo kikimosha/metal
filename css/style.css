@@ -385,6 +385,7 @@ h2.cl_dark_blue:before {
 .suitable {
     background: url("../img/bg_suitable.jpg") no-repeat center -30px;
     height: 960px;
+    margin-bottom: 20px;
 }
 
 h2.cl_white {

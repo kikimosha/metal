@@ -63,6 +63,8 @@
                 </ul>
             </div>
         </div>
+
+        <!-- COUNTER BLOCK 1 (Start) -->
         <div class="offer">
             <div class="wrapper clearfix">
                 <div class="box_offer">
@@ -82,9 +84,9 @@
 
                 <h2 class="cl_blue">Оставьте заявку<br><span>на бесплатный замер</span></h2>
 
-                <div id="container" >
+                <div class="counter_container" >
                     <!-- Начало панели счетчика -->
-                    <div id="countdown_dashboard">
+                    <div class="countdown_dashboard" id="counter_1">
                         <h3 class="counter_title center">до конца акции</h3>
                         <div class="dash days_dash">
                             <div class="digit">0</div>
@@ -116,30 +118,14 @@
                     </div>
 
                     <!-- Завершение панели счетчика -->
-                    <div class="info_message" id="complete_info_message" style="display: none;">Время истекло!</div>
-
-                    <!--  Инициализация таймера установкой абсолютного значения времени -->
-                    <script language="javascript" type="text/javascript">
-                        jQuery(document).ready(function() {
-                            $('#countdown_dashboard').countDown({
-                                targetDate: {
-                                    'day': 		20,   // день
-                                    'month': 	11,   // месяц
-                                    'year': 	2014, // год
-                                    'hour': 	21,   // час
-                                    'min': 		59,   // минуты
-                                    'sec': 		40    // секунды
-                                },
-                                // По завершении счета времени будет появляться сообщение #complete_info_message и исчезать таймер
-                                onComplete: function() { $('#complete_info_message').slideDown(),$('#countdown_dashboard').hide()}
-                            });
-                        });
-                    </script>
+                    <div class="info_message" id="info_message_1" style="display: none;">Время истекло!</div>
                 </div>
 
                 <div class="blue_arrow"></div>
             </div>
         </div>
+        <!-- COUNTER BLOCK 1 (End) -->
+
         <div class="suitable">
             <div class="wrapper">
                 <h2 class="cl_white">Выберите<br><span>подходящий Вам каркас</span></h2>
@@ -190,6 +176,68 @@
                 </div>
             </div>
         </div>
+
+        <!-- COUNTER BLOCK 2 (Start) -->
+        <div class="offer">
+            <div class="wrapper clearfix">
+                <div class="box_offer">
+                    <h1>Оставьте заявку</h1>
+                    <p>на <span class="blue">бесплатный</span> замер</p>
+                    <p class="light">и мы подберем Вам<br>
+                        лучшие параметры и модель<br>
+                        лестницы.</p>
+
+                    <form action="#" method="POST">
+                        <input value="" placeholder="Ваше имя">
+                        <input value="" placeholder="Ваш телефон">
+                        <input value="" placeholder="Ваш email">
+                        <a class="btn_offer btn_border" href="#">Заказать!</a>
+                    </form>
+                </div>
+
+                <h2 class="cl_blue">Оставьте заявку<br><span>на бесплатный замер</span></h2>
+
+                <div class="counter_container" >
+                    <!-- Начало панели счетчика -->
+                    <div class="countdown_dashboard" id="counter_2">
+                        <h3 class="counter_title center">до конца акции</h3>
+                        <div class="dash days_dash">
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                            <div class="clear"></div>
+                            <div class="dash_title">дней</div>
+                        </div>
+
+                        <div class="dash hours_dash">
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                            <div class="clear"></div>
+                            <div class="dash_title">часов</div>
+                        </div>
+
+                        <div class="dash minutes_dash">
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                            <div class="clear"></div>
+                            <div class="dash_title">минут</div>
+                        </div>
+
+                        <div class="dash seconds_dash">
+                            <div class="digit">0</div>
+                            <div class="digit">0</div>
+                            <div class="clear"></div>
+                            <div class="dash_title">секунд</div>
+                        </div>
+                    </div>
+
+                    <!-- Завершение панели счетчика -->
+                    <div class="info_message" id="info_message_2" style="display: none;">Время истекло!</div>
+                </div>
+
+                <div class="blue_arrow"></div>
+            </div>
+        </div>
+        <!-- COUNTER BLOCK 2 (End) -->
 
         <div class="warranty">
             <div class="wrapper">
