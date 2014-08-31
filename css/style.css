@@ -330,10 +330,14 @@ h2.cl_white {
     color: #ffffff;
     padding-top: 75px;
     text-align: right;
+    position: relative;
 }
 
 h2.cl_white:before {
     background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 55px;
 }
 
 .suitaable_box {
