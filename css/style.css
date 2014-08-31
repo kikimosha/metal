@@ -165,7 +165,7 @@ h1.logo span {
     height:39px;
     line-height: 39px;
     display: inline-block;
-    font: 26px 'Segoe_UI_light', sans-serif;
+    font: 24px 'Segoe_UI', sans-serif;
     padding: 0 38px;
     background: url("../img/bg_btn_call.png") repeat-x center center;
     margin-top: 15px;
@@ -179,6 +179,7 @@ h1.logo span {
 
 .main_menu {
     margin: 30px auto 15px;
+    width: 610px;
 }
 
 .main_menu li {
