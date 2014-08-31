@@ -283,7 +283,6 @@ h1.logo span {
 
 .our_advantage li span.bold {
     font: 40px 'Segoe_UI_bold', sans-serif;
-
 }
 
 li.adv_1 {
@@ -323,7 +322,7 @@ h2.cl_dark_blue:before {
 }
 
 .suitable {
-    background: url("../img/bg_suitable.jpg") no-repeat bottom center;
+    background: url("../img/bg_suitable.jpg") no-repeat center -30px;
     height: 960px;
 }
 
