@@ -97,7 +97,7 @@ p {
 }
 
 .btn_border {
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid #d99100;
     position:relative;
     z-index:10
@@ -687,4 +687,38 @@ a.more{
 
 .numbers li span {
     font: 30px 'Segoe_UI_bold', sans-serif;
+}
+
+.bg_num {
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.bg_num_1 {
+    background-image: url("../img/num_bg_1");
+}
+
+.bg_num_2 {
+    background-image: url("../img/num_bg_2");
+}
+
+.bg_num_3 {
+    background-image: url("../img/num_bg_3");
+}
+
+.bg_num_4 {
+    background-image: url("../img/num_bg_4");
+}
+
+.bg_num_5 {
+    background-image: url("../img/num_bg_5");
+}
+
+.order_metal {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 38px;
+    height: 82px;
+    line-height: 82px;
+    background: url("../img/bg_btn_offer.png") repeat-x center center;
 }
