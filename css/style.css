@@ -104,12 +104,16 @@ p {
     display:block;
     position:absolute;
     z-index:-1;
-    top:0px;
-    left:0px;
-    right:0px;
-    bottom:0px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
     border:1px solid #fadc8f;
     border-radius: 10px;
+}
+
+h2 {
+    font: 60px 'Segoe_UI_bold', sans-serif;
 }
 
 /*HEADER*/
@@ -228,11 +232,50 @@ h1.logo span {
 
 .title_normal {
     font: 42px 'Segoe_UI_light', sans-serif;
+    margin: 40px 0;
 }
 
 .our_advantage li {
     float: left;
-    width: 190px;
+    width: 187px;
     height: 420px;
-    padding-top: 190px;
+    padding-top: 210px;
+    margin-right: 22px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #053763;
+    text-align: center;
+}
+
+.our_advantage li:last-child {
+    margin-right: 0;
+}
+
+.our_advantage li span {
+    font-size: 28px;
+}
+
+.our_advantage li span.bold {
+    font: 40px 'Segoe_UI_bold', sans-serif;
+
+}
+
+li.adv_1 {
+    background: url("../img/adv_1.png") no-repeat center top;
+}
+
+li.adv_2 {
+    background: url("../img/adv_2.png") no-repeat center top;
+}
+
+li.adv_3 {
+    background: url("../img/adv_3.png") no-repeat center top;
+}
+
+li.adv_4 {
+    background: url("../img/adv_4.png") no-repeat center top;
+}
+
+li.adv_5 {
+    background: url("../img/adv_5.png") no-repeat center top;
 }
