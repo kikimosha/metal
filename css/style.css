@@ -1,5 +1,4 @@
-@font-face
-{
+@font-face {
     font-weight: normal;
     font-style: normal;
     font-family: 'Segoe_UI';
@@ -9,7 +8,60 @@
     url('../fonts/segoeui/segoeui.ttf') format('truetype'),
     url('../fonts/segoeui/segoeui.svg#webfont') format('svg');
 }
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_bold';
+    src: url('../fonts/segoeuib/segoeuib.eot');
+    src: url('../fonts/segoeuib/segoeuib.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuib/segoeuib.woff') format('woff'),
+    url('../fonts/segoeuib/segoeuib.ttf') format('truetype'),
+    url('../fonts/segoeuib/segoeuib.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_italic';
+    src: url('../fonts/segoeuii/segoeuii.eot');
+    src: url('../fonts/segoeuii/segoeuii.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuii/segoeuii.woff') format('woff'),
+    url('../fonts/segoeuii/segoeuii.ttf') format('truetype'),
+    url('../fonts/segoeuii/segoeuii.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_light';
+    src: url('../fonts/segoeuil/segoeuil.eot');
+    src: url('../fonts/segoeuil/segoeuil.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuil/segoeuil.woff') format('woff'),
+    url('../fonts/segoeuil/segoeuil.ttf') format('truetype'),
+    url('../fonts/segoeuil/segoeuil.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_z';
+    src: url('../fonts/segoeuiz/segoeuiz.eot');
+    src: url('../fonts/segoeuiz/segoeuiz.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuiz/segoeuiz.woff') format('woff'),
+    url('../fonts/segoeuiz/segoeuiz.ttf') format('truetype'),
+    url('../fonts/segoeuiz/segoeuiz.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Seguisb';
+    src: url('../fonts/seguisb/seguisb.eot');
+    src: url('../fonts/seguisb/seguisb.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/seguisb/seguisb.woff') format('woff'),
+    url('../fonts/seguisb/seguisb.ttf') format('truetype'),
+    url('../fonts/seguisb/seguisb.svg#webfont') format('svg');
+}
 
+/**
+GENERAL
+*/
 html, body {
     background-color: #ffffff;
     width: 100%;
@@ -75,10 +127,9 @@ h1.logo {
     padding-left: 140px;
     background: url("../img/logo.png") no-repeat left center;
     text-transform: uppercase;
-    font-size: 30px;
     color: #7b7b7b;
     line-height: 40px;
-    font-weight: bold;
+    font: 30px 'Segoe_UI_bold', sans-serif;
     text-shadow: #c8c8c8 0 1px 1px;
 }
 
@@ -99,8 +150,7 @@ h1.logo span {
     background: url("../img/ic_phone.png") no-repeat 10px center;
     padding-left: 30px;
     color: #7b7b7b;
-    font-size: 24px;
-    font-weight: bold;
+    font: 24px 'Segoe_UI_bold', sans-serif;
 }
 
 .phone>p span {
@@ -110,8 +160,7 @@ h1.logo span {
 .call_offer {
     height:39px;
     display: inline-block;
-    font-size: 24px;
-    font-weight: lighter;
+    font: 30px 'Segoe_UI_light', sans-serif;
     padding: 0 38px;
     background: url("../img/bg_btn_call.png") repeat-x center center;
     margin-top: 15px;
@@ -147,13 +196,11 @@ h1.logo span {
 }
 
 .title_bold {
-    font-size: 38px;
-    font-weight: bold;
+    font: 38px 'Segoe_UI_bold', sans-serif;
 }
 
 .title_light {
-    font-size: 29px;
-    font-weight: lighter;
+    font: 29px 'Segoe_UI_light', sans-serif;
 }
 
 .bg_main {
