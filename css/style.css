@@ -373,3 +373,31 @@ h2.cl_white:before {
     margin: 7px 0;
     text-align: center;
 }
+
+.box_ul {
+    margin: 15px 10px;
+}
+
+.box_bg {
+    min-height: 84px;
+    width: 240px;
+    padding-left: 80px;
+    font-size: 20px;
+    color: #757575;
+}
+
+.box_bg_1 {
+    background: url("../img/box_bg_1.png") no-repeat top left;
+}
+
+.box_bg_2 {
+    background: url("../img/box_bg_2.png") no-repeat top left;
+}
+
+.box_bg_3 {
+    background: url("../img/box_bg_3.png") no-repeat center left;
+}
+
+.box_bg_4 {
+    background: url("../img/box_bg_4.png") no-repeat center left;
+}
