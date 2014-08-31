@@ -11,44 +11,31 @@
 }
 
 .dash {
-	width: 138px;
-	height: 96px;
 	float: left;
-	margin-left: 2px;
-	padding-left: 13px;
+	margin: 0;
 	position: relative;
-	color: #ffffff;
-}
-
-.days_dash {
-	background: transparent url('../img/counter/dark_days_dash.png') 0 0 no-repeat;
-}
-.hours_dash {
-	background: transparent url('../img/counter/dark_hours_dash.png') 0 0 no-repeat;
-}
-.minutes_dash {
-	background: transparent url('../img/counter/dark_minutes_dash.png') 0 0 no-repeat;
-}
-.seconds_dash {
-    background: transparent url('../img/counter/dark_seconds_dash.png') 0 0 no-repeat;
+	color: #242527;
 }
 
 .dash .digit {
     font-family: 'Segoe_UI', sans-serif;
-    font-size: 80px;
+    font-size: 46px;
 	font-weight: normal;
-    padding: 0 0 0 5px;
+    padding: 0;
+    margin: 0 7px 0 0;
 	float: left;
-	width: 53px;
+	width: 43px;
+    height: 68px;
 	text-align: center;
 	position: relative;
+    background: transparent url('../img/dash.png') 0 0 no-repeat;
+    box-shadow: 0 0 3px #ccc;
 }
 
 .dash_title {
     font-size: 18px;
     color: #000000;
-    display: block;
-    margin: 10px 38px;
+    text-align: center;
 }
 
 #info_message {
