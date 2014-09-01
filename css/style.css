@@ -460,6 +460,23 @@ h2.cl_white:before {
     margin: 20px 0;
 }
 
+.prof_wood_skin {
+    margin: 20px 0 0 0;
+}
+.prof_wood_skin h2 {
+    font: 60px/68px 'Segoe_UI_bold', sans-serif;
+    color: #ffaf00;
+    text-align: center;
+}
+.prof_wood_skin h3 {
+    font: 34px/48px 'Segoe_UI_light', sans-serif;
+    color: #2d2d2d;
+    text-align: center;
+}
+.prof_wood_skin p {
+    font: 30px/36px 'Seguisb', sans-serif;
+}
+
 .box {
     width: 372px;
     height: 682px;
