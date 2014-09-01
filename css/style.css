@@ -472,12 +472,27 @@ h2.cl_white:before {
     text-align: center;
 }
 .prof_wood_skin h3 {
-    font: 34px/48px 'Segoe_UI_light', sans-serif;
+    font: 32px/50px 'Segoe_UI_light', sans-serif;
     color: #2d2d2d;
     text-align: center;
 }
-.prof_wood_skin p {
-    font: 30px/36px 'Seguisb', sans-serif;
+.prof_wood_skin h4 {
+    font: 28px/28px 'Seguisb', sans-serif;
+    width: 950px;
+    margin: 20px 0 0 150px;
+}
+.prof_wood_skin h4 span {
+    font: 32px/28px 'Segoe_UI_bold', sans-serif;
+    color: #38a2e6;
+}
+.prof_wood_skin ul {
+    margin: 20px 0 0 40px;
+}
+.prof_wood_skin ul li {
+    list-style-image: url("../img/ul_li_galka.png");
+    list-style-position: inside;
+    font-size: 26px;
+    min-height: 80px;
 }
 
 .box {
