@@ -1,9 +1,10 @@
 $(document).ready(function () {
     $("#waterwheel-carousel").waterwheelCarousel({
-        horizon: 110,
+        horizon:210,
         horizonOffset: 0,
-        horizonOffsetMultiplier: .7,
-        separation: 150,
-        edgeFadeEnabled: true
+        horizonOffsetMultiplier:.7,
+        separation: 225,
+        edgeFadeEnabled: true,
+        opacityMultiplier: 1
     });
 });
