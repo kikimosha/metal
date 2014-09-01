@@ -9,4 +9,6 @@
 #waterwheel-carousel img {
   visibility:hidden; /* hide images until carousel positions them */
   cursor:pointer;
+  width: 320px;
+  height: 180px;
 }
