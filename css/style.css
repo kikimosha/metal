@@ -423,17 +423,19 @@ h2.cl_dark_blue:before {
     background-color: #053763;
 }
 
-h2.cl_gold {
-    color: #ffaf00;
-    font-size: 72px;
-}
-
 h2.cl_gold:before {
     background-color: #ffaf00;
+    position: absolute;
+    top: 0;
+    left: 470px; /* ( 1180 - 240) / 2 */
 }
 
 h2.cl_gold {
+    color: #ffaf00;
     font-size: 51px;
+    position: relative;
+    margin: 50px 0 0 0;
+    padding: 30px 0 0 0;
     text-transform: uppercase;
 }
 
@@ -718,8 +720,8 @@ a.more{
     float: left;
     font: 24px 'Segoe_UI_light', sans-serif;
     text-align: center;
-    margin-right: 35px;
-    padding-top: 110px;
+    margin: 20px 35px 0 0;
+    padding-top: 120px;
 }
 
 .numbers li:last-child {
@@ -732,27 +734,31 @@ a.more{
 
 .bg_num {
     background-repeat: no-repeat;
-    background-position: center top;
 }
 
 .bg_num_1 {
-    background-image: url("../img/num_bg_1");
+    background-image: url("../img/num_bg_1.png");
+    background-position: center 19px;
 }
 
 .bg_num_2 {
-    background-image: url("../img/num_bg_2");
+    background-image: url("../img/num_bg_2.png");
+    background-position: center 30px;
 }
 
 .bg_num_3 {
-    background-image: url("../img/num_bg_3");
+    background-image: url("../img/num_bg_3.png");
+    background-position: center 7px;
 }
 
 .bg_num_4 {
-    background-image: url("../img/num_bg_4");
+    background-image: url("../img/num_bg_4.png");
+    background-position: center 1px;
 }
 
 .bg_num_5 {
-    background-image: url("../img/num_bg_5");
+    background-image: url("../img/num_bg_5.png");
+    background-position: center 5px;
 }
 
 .order_metal {
