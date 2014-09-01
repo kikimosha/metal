@@ -100,7 +100,9 @@ p {
     border-radius: 15px;
     border: 1px solid #d99100;
     position:relative;
-    z-index:10
+    z-index:10;
+    text-shadow: #ffc942 0 1px 1px;
+    box-shadow: 1px 15px 10px #cfcfcf;
 }
 
 .btn_border:before {
@@ -119,6 +121,7 @@ p {
 h2 {
     font: 60px 'Segoe_UI_bold', sans-serif;
     line-height: 43px;
+    margin-top: 20px;
 }
 
 h2:before {
@@ -188,16 +191,15 @@ h1.logo span {
     padding: 0 38px;
     background: url("../img/bg_btn_call.png") repeat-x center center;
     margin-top: 15px;
-    text-shadow: #ffc942 0 1px 1px;
-    box-shadow: 1px 15px 10px #cfcfcf;
 }
 
 .line {
     border-top: 1px solid #8d8d8d;
+    margin-top: 20px;
 }
 
 .main_menu {
-    margin: 30px auto 15px;
+    margin: 20px auto 15px;
     width: 610px;
 }
 
@@ -241,6 +243,7 @@ h1.logo span {
     padding: 0 60px;
     font-size: 38px;
     background: url("../img/bg_btn_know.png") repeat-x center center;
+    box-shadow: none;
 }
 
 .why_clients {
@@ -778,6 +781,7 @@ a.more{
 .order_metal {
     display: inline-block;
     padding: 0 30px;
+    margin: 10px 0 40px;
     font-size: 38px;
     height: 82px;
     line-height: 82px;
