@@ -855,7 +855,8 @@ a.more{
 
 .ask_call {
     background: url("../img/bg_ask_call.jpg") no-repeat center center;
-    height: 408px;
+    height: 350px;
+    padding-top: 58px;
 }
 
 .btn_ask_call {
@@ -863,8 +864,22 @@ a.more{
     background: url("../img/bg_btn_askcall.png") repeat-x center center;
     height: 122px;
     line-height: 122px;
-    font: 56px 'Segoe_UI_light';
+    font-size: 56px;
     box-shadow: none;
     padding: 0 125px;
     text-shadow: 0 3px 1px #ffdc66;
+}
+
+.still_question {
+    font: 36px 'Segoe_UI_bold';
+    color: #ffffff;
+    margin: 0 0 50px;
+}
+
+.still_question span {
+    color: #ffc603;
+}
+
+.still_question span.sq_bold {
+    text-transform: uppercase;
 }
