@@ -512,7 +512,7 @@ h2.cl_white:before {
     border: 2px solid #ffffff;
     border-radius: 30px;
     float: left;
-    margin-right: 25px;
+    margin:0 22px 0 0;
 }
 .box:last-child {
     margin-right: 0;
