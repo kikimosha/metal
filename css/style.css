@@ -883,3 +883,63 @@ a.more{
 .still_question span.sq_bold {
     text-transform: uppercase;
 }
+
+.steps {
+    border-bottom: 1px solid #8d8d8d;
+    background: url("../img/bg_steps.png") repeat-x center bottom;
+    min-height: 574px;
+}
+
+.four_steps {
+    background: url("../img/bg_four_steps.png") no-repeat center 110px;
+    padding: 20px 50px;
+}
+
+.four_steps li {
+    float: left;
+    width: 225px;
+    margin-right: 60px;
+    padding-top: 150px;
+    text-align: left;
+    font: 18px 'Segoe_UI_light';
+    background-repeat: no-repeat;
+}
+
+.four_steps li:last-child {
+    margin-right: 0;
+}
+
+.four_steps li span {
+    font: 27px 'Segoe_UI_bold';
+}
+
+.step_1 {
+    background-image: url("../img/step_bg_1.png");
+    background-position: 37px top;
+}
+
+.step_2 {
+    background-image: url("../img/step_bg_2.png");
+    background-position: 67px 5px;
+}
+
+.step_3 {
+    background-image: url("../img/step_bg_3.png");
+    background-position: 67px top;
+}
+
+.step_4 {
+    background-image: url("../img/step_bg_4.png");
+    background-position: 88px 5px;
+}
+
+.leave_offer {
+    display: inline-block;
+    padding: 0 40px;
+    font: 11px 'Segoe_UI_light';
+    height: 39px;
+    line-height: 39px;
+    background: url("../img/bg_btn_leaveoffer.png") repeat-x center center;
+    margin: 0 0 30px 50px;
+
+}
