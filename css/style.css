@@ -857,3 +857,9 @@ a.more{
     padding: 0 125px;
     text-shadow: 0 3px 1px #ffdc66;
 }
+
+.still_question {
+    font: 36px 'Segoe_UI_bold';
+    color: #ffffff;
+}
+}
