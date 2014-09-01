@@ -121,7 +121,7 @@ p {
 h2 {
     font: 60px 'Segoe_UI_bold';
     line-height: 43px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 h2:before {
@@ -812,4 +812,59 @@ a.more{
     height: 82px;
     line-height: 82px;
     background: url("../img/bg_btn_offer.png") repeat-x center center;
+}
+
+.privilege {
+    margin: 20px 50px 40px;
+}
+
+.privilege li {
+    float: left;
+    width: 215px;
+    margin-right: 70px;
+    padding-top:160px;
+    text-align: center;
+    font: 19px 'Segoe_UI_light', sans-serif;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.privilege li span {
+    font-family: 'Segoe_UI_bold', sans-serif;
+}
+
+.privilege li:last-child {
+    margin-right: 0;
+}
+
+.priv_1 {
+    background-image: url("../img/priv_bg_1.png");
+}
+
+.priv_2 {
+    background-image: url("../img/priv_bg_2.png");
+}
+
+.priv_3 {
+    background-image: url("../img/priv_bg_3.png");
+}
+
+.priv_4 {
+    background-image: url("../img/priv_bg_4.png");
+}
+
+.ask_call {
+    background: url("../img/bg_ask_call.jpg") no-repeat center center;
+    height: 408px;
+}
+
+.btn_ask_call {
+    display: inline-block;
+    background: url("../img/bg_btn_askcall.png") repeat-x center center;
+    height: 122px;
+    line-height: 122px;
+    font: 56px 'Segoe_UI_light';
+    box-shadow: none;
+    padding: 0 125px;
+    text-shadow: 0 3px 1px #ffdc66;
 }
