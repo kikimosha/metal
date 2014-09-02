@@ -145,6 +145,10 @@ h2 span {
     float: left;
 }
 
+.mt60 {
+    margin-top: 60px !important;
+}
+
 /*HEADER*/
 
 header {
@@ -512,12 +516,50 @@ h2.cl_black:before {
 }
 .slider {
     margin: 20px 0 0 0;
-    min-height: 750px;
+    min-height: 700px;
+}
+.slider_arrow {
+    display: block;
+    width: 155px;
+    height: 150px;
+    position: absolute;
+    top: 370px;
+    text-align: center;
+    font: 20px/23px 'Segoe_UI_italic';
+    padding-top: 55px;
+}
+#slider_arrow_prev {
+    background: url("../img/slider_arrow_prev.png") no-repeat left top;
+    left: 0;
+    padding-left: 10px;
+}
+#slider_arrow_next {
+    background: url("../img/slider_arrow_next.png") no-repeat right top;
+    right: 0;
+    padding-right: 10px;
+}
+#waterwheel-carousel {
+    width:1180px;
+    height:480px;
+    position:relative;
+    clear:both;
+    overflow:hidden;
+    margin:0 auto;
+}
+#waterwheel-carousel img {
+    visibility:hidden; /* hide images until carousel positions them */
+    cursor:pointer;
+    width: 650px;
+    height: 360px;
+    border: solid 4px #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #ccc;
 }
 .questions {
     width: 660px;
-    margin: 0 auto;
+    margin: -50px auto 0;
     text-align: center;
+    background: url("../img/gallery_arrow.png") no-repeat 30px 35px;
 }
 .questions p {
     font: 26px 'Segoe_UI_light';
