@@ -1014,6 +1014,20 @@ a.more{
 .pic_com {
     border: 4px solid #ffffff;
     box-shadow: 0 0 10px #c89c52;
-    margin: 0 20px;
+    margin: 0 90px 0 20px;
     border-radius: 10px;
+}
+
+.com {
+    display: inline-block;
+    margin: 9px 35px 9px 0;
+}
+
+.com_text {
+    margin: 9px 0;
+}
+
+.com_text p {
+    font-size: 14px;
+    color: #ffffff;
 }
