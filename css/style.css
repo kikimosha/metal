@@ -334,6 +334,7 @@ h1.logo span {
     height: 292px;
     float: left;
     margin-right: 4px;
+    text-shadow: 0 1px 0 #adbac7;
 }
 .warranty_list li:last-child {
     margin-right: 0;
