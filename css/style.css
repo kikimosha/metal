@@ -1044,3 +1044,17 @@ p.com_title {
     font: 17px/23px 'Segoe_UI_bold';
     color: #3da6ea;
 }
+
+.btn_comment {
+    height: 57px;
+    line-height: 57px;
+    display: inline-block;
+    background: url("../img/bg_btn_comment.png") repeat-x center center;
+    padding: 0 44px;
+    font-size: 26px;
+    box-shadow: 0 5px 7px #cf994a;
+}
+
+.where {
+    background: url("../img/bg_where.jpg") no-repeat center center;
+}
