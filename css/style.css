@@ -451,6 +451,18 @@ h2.cl_gold {
     text-transform: uppercase;
 }
 
+h2.cl_yellow {
+    color: #ffaf00;
+}
+
+h2.cl_yellow:before {
+    background-color: #ffaf00;
+}
+
+h2.cl_yellow span {
+    color: #ffffff;
+}
+
 .suitable {
     background: url("../img/bg_suitable.jpg") no-repeat center -30px;
     height: 960px;
