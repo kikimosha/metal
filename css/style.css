@@ -68,6 +68,13 @@ html, body {
     color: #000000;
     font: 13px/1.5 'Segoe_UI';
 }
+/*body {*/
+    /*zoom: 0.75;*/
+    /*-moz-transform: scale(0.75);*/
+    /*-moz-transform-origin: top center;*/
+    /*-o-transform: scale(0.75);*/
+    /*-o-transform-origin: top center;*/
+/*}*/
 .page {
     max-width: 1400px;
     margin: 0 auto;
@@ -162,6 +169,8 @@ header {
     width: 480px;
     padding-left: 140px;
     background: url("../img/logo.png") no-repeat left center;
+}
+h1.logo {
     text-transform: uppercase;
     color: #7b7b7b;
     line-height: 40px;
@@ -1081,3 +1090,12 @@ p.com_title {
 }
 .justify-image img{display:inline-block;}
 .justify-image:after{content:""; display: inline-block; width: 100%; height: 0;}
+
+.footer .logo {
+    padding: 50px 0 0 160px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.contacts {
+    margin: 10px 0 0 0;
+}
