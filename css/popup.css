@@ -50,7 +50,7 @@ label.red input, label.red textarea {
     position: absolute;
     left: 0px;
     top: -20px;
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     font-size: 16px;
     color: #000;
     line-height: 19px;
@@ -64,7 +64,7 @@ label.red input, label.red textarea {
     border: 1px solid #ccc;
     text-align: center;
     font-size: 24px;
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     line-height: 30px;
     color: #000;
 }
@@ -109,7 +109,7 @@ label.red input, label.red textarea {
 
 .popup_h1 {
     font-size: 35px;
-    font-family: 'sans_bold';
+    font-family: 'Segoe_UI_bold';
     color: #2f2f30;
     text-align: center;
     line-height: 38px;
@@ -117,7 +117,7 @@ label.red input, label.red textarea {
 }
 
 .popup_h2 {
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     font-size: 16px;
     color: #676767;
     line-height: 19px;
@@ -138,7 +138,7 @@ label.red input, label.red textarea {
 }
 
 .popup .descr {
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     font-size: 16px;
     color: #848484;
     line-height: 19px;
@@ -147,7 +147,7 @@ label.red input, label.red textarea {
 }
 
 .popup .descr span {
-    font-family: 'sans_medium';
+    font-family: 'Seguisb';
 }
 
 .popup:after {
@@ -170,13 +170,13 @@ label.red input, label.red textarea {
 }
 
 .popup#special .popup_h1 {
-    font-family: 'sans_medium';
+    font-family: 'Seguisb';
     font-size: 26px;
     line-height: 29px;
 }
 
 .popup#special .popup_h1 span {
-    font-family: 'sans_bold';
+    font-family: 'Segoe_UI_bold';
 }
 
 .popup#special .icon {
@@ -195,7 +195,7 @@ textarea {
     border: 1px solid #ccc;
     text-align: center;
     font-size: 24px;
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     line-height: 30px;
     color: #000;
     position: relative;
@@ -209,7 +209,7 @@ textarea {
     position: absolute;
     left: 0px;
     top: -20px;
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     font-size: 16px;
     color: #000;
     line-height: 19px;
@@ -247,7 +247,7 @@ textarea {
 }
 
 .popup.with_text .h1 {
-    font-family: 'sans_bold';
+    font-family: 'Segoe_UI_bold';
     font-size: 38px;
     line-height: 41px;
     color: #053763;
@@ -268,7 +268,7 @@ textarea {
 .popup.with_text .text {
     padding: 15px 0 15px 25px;
     border: 4px solid #5dc4e6;
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     font-size: 16px;
     color: #053763;
     line-height: 19px;
@@ -279,7 +279,7 @@ textarea {
 }
 
 .popup.with_text .text span {
-    font-family: 'sans_medium';
+    font-family: 'Seguisb';
 }
 
 .popup.with_text .text p {
@@ -313,7 +313,7 @@ textarea {
     height: 50px;
     background: url('../img/popup/popup_photos.jpg') 0px 0px no-repeat;
     padding: 12px 0 0 70px;
-    font-family: 'sans_regular';
+    font-family: 'Segoe_UI';
     font-size: 14px;
     color: #053763;
     line-height: 17px;
@@ -321,7 +321,7 @@ textarea {
 }
 
 .popup.with_text .descrs span {
-    font-family: 'sans_medium';
+    font-family: 'Seguisb';
     font-size: 16px;
 }
 
@@ -552,4 +552,12 @@ textarea {
 *::selection {
     background-color: rgba(255,204,3,1);
     color: #000;
+}
+.popup label {
+    display: inline-block;
+    position: relative;
+}
+.popup label.red input,
+.popup label.red textarea {
+    border: 1px solid #f00 !important;
 }

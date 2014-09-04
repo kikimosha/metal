@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/ie.css">
     <!--counter css-->
@@ -47,27 +48,22 @@
         <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
         <div class="popup_h1">Заказать<br>обратный звонок</div>
         <div class="popup_h2">
-            Введите ваше имя и телефон.<br>
-            Специалист компании Mokselle свяжется с вами,<br>
-            чтобы ответить на ваши вопросы.
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
         </div>
         <form>
             <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label><br>
             <label class="phone required">
                 <div class="desc">Введите Ваш телефон</div>
-                <input type="text" name="phone1" class="input_phone" maxlength="5" placeholder="+7" value="+7">
-            </label>
-            <label class="phone required">
-                <input type="text" name="phone2" class="input_phone" maxlength="6" placeholder="123">
-            </label>
-            <label class="phone required">
-                <input type="text" name="phone3" class="input_phone" maxlength="10" placeholder="4567890">
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
             </label><br>
-            <a data-name="callback" class="button noselect btn">Заказать звонок</a>
+            <div class="center">
+                <a data-name="callback" class="btn_border call_offer" href="javascript:void(0);">Заказать звонок</a>
+            </div>
         </form>
         <div class="descr">
             или позвоните нам по телефону<br>
-            <span class="ya_phone">+7 (499) 271-77-43</span>
+            <span class="ya_phone">+7(343) 201-23-03</span>
         </div>
     </div>
     <div class="popup" id="request">

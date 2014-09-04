@@ -1,0 +1,60 @@
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI';
+    src: url('../fonts/segoeui/segoeui.eot');
+    src: url('../fonts/segoeui/segoeui.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeui/segoeui.woff') format('woff'),
+    url('../fonts/segoeui/segoeui.ttf') format('truetype'),
+    url('../fonts/segoeui/segoeui.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_bold';
+    src: url('../fonts/segoeuib/segoeuib.eot');
+    src: url('../fonts/segoeuib/segoeuib.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuib/segoeuib.woff') format('woff'),
+    url('../fonts/segoeuib/segoeuib.ttf') format('truetype'),
+    url('../fonts/segoeuib/segoeuib.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_italic';
+    src: url('../fonts/segoeuii/segoeuii.eot');
+    src: url('../fonts/segoeuii/segoeuii.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuii/segoeuii.woff') format('woff'),
+    url('../fonts/segoeuii/segoeuii.ttf') format('truetype'),
+    url('../fonts/segoeuii/segoeuii.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_light';
+    src: url('../fonts/segoeuil/segoeuil.eot');
+    src: url('../fonts/segoeuil/segoeuil.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuil/segoeuil.woff') format('woff'),
+    url('../fonts/segoeuil/segoeuil.ttf') format('truetype'),
+    url('../fonts/segoeuil/segoeuil.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Segoe_UI_z';
+    src: url('../fonts/segoeuiz/segoeuiz.eot');
+    src: url('../fonts/segoeuiz/segoeuiz.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/segoeuiz/segoeuiz.woff') format('woff'),
+    url('../fonts/segoeuiz/segoeuiz.ttf') format('truetype'),
+    url('../fonts/segoeuiz/segoeuiz.svg#webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Seguisb';
+    src: url('../fonts/seguisb/seguisb.eot');
+    src: url('../fonts/seguisb/seguisb.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/seguisb/seguisb.woff') format('woff'),
+    url('../fonts/seguisb/seguisb.ttf') format('truetype'),
+    url('../fonts/seguisb/seguisb.svg#webfont') format('svg');
+}
