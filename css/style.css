@@ -183,10 +183,16 @@ h1.logo span {
     text-shadow: #aaaaaa 0 1px 1px;
 }
 
-.phone {
+.phone,
+.mail {
     float: right;
     width: 275px;
     text-align: center;
+}
+.mail {
+    background: url("../img/mail.png") no-repeat 0 0;
+    font: 24px/30px 'Segoe_UI_bold';
+    color: #616161;
 }
 
 .phone>p {
