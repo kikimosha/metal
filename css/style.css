@@ -770,6 +770,9 @@ a.more{
 .dashed {
     border-bottom: 3px dashed #ff8213;
 }
+.no_shadow {
+    box-shadow: none;
+}
 
 .clock {
     margin: 10px 0 0;
@@ -1053,7 +1056,7 @@ p.com_title {
 }
 .contacts {
     float: right;
-    margin: 15px 0 0 0;
+    margin: 15px 0 30px;
 }
 .mail {
     width: 275px;
