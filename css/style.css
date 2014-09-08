@@ -296,7 +296,7 @@ h1.logo span {
 }
 .warranty {
     background: url("../img/bg_garantee.png") repeat-x bottom center;
-    min-height: 470px;
+    min-height: 352px;
 }
 .warranty_list {
     padding: 0;
@@ -304,22 +304,22 @@ h1.logo span {
 }
 .warranty_list li {
     background: url("../img/bg_warranty.png") no-repeat 0 0;
-    width: 292px;
-    height: 292px;
+    width: 219px;
+    height: 219px;
     float: left;
-    margin-right: 4px;
+    margin-right: 41px;
     text-shadow: 0 1px 0 #adbac7;
 }
 .warranty_list li:last-child {
     margin-right: 0;
 }
 .warr_li {
-    margin: 55px 0 0;
-    padding: 90px 55px 0;
+    margin: 41px 0 0;
+    padding: 67px 41px 0;
     text-align: center;
     color: #fff;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 18px;
 }
 .warranty_1 {
     background: url("../img/warranty_1.png") no-repeat 51% 0;
@@ -466,32 +466,32 @@ h2.cl_black:before {
     margin: 20px 0 0 0;
 }
 .prof_wood_skin h2 {
-    font: 60px/68px 'Segoe_UI_bold';
+    font: 45px/51px 'Segoe_UI_bold';
     color: #ffaf00;
     text-align: center;
 }
 .prof_wood_skin h3 {
-    font: 32px/50px 'Segoe_UI_light';
+    font: 24px/37px 'Segoe_UI_light';
     color: #2d2d2d;
     text-align: center;
 }
 .prof_wood_skin h4 {
-    font: 28px/28px 'Seguisb';
-    width: 950px;
-    margin: 20px 0 0 150px;
+    font: 21px/21px 'Seguisb';
+    width: 712px;
+    margin: 15px 0 0 112px;
 }
 .prof_wood_skin h4 span {
-    font: 32px/28px 'Segoe_UI_bold';
+    font: 24px/21px 'Segoe_UI_bold';
     color: #38a2e6;
 }
 .prof_wood_skin ul {
-    margin: 20px 0 0 40px;
+    margin: 15px 0 0 30px;
 }
 .prof_wood_skin ul li {
     list-style-image: url("../img/ul_li_galka.png");
     list-style-position: inside;
-    font-size: 26px;
-    min-height: 80px;
+    font-size: 19px;
+    min-height: 60px;
 }
 .slider {
     margin: 20px 0 0 0;
@@ -856,16 +856,16 @@ a.more{
 }
 
 .privilege {
-    margin: 20px 50px 40px;
+    margin: 15px 37px 30px;
 }
 
 .privilege li {
     float: left;
-    width: 215px;
-    margin-right: 70px;
-    padding-top:160px;
+    width: 170px;
+    margin-right: 82px;
+    padding-top:120px;
     text-align: center;
-    font: 19px 'Segoe_UI_light', sans-serif;
+    font: 14px 'Segoe_UI_light', sans-serif;
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -896,25 +896,25 @@ a.more{
 
 .ask_call {
     background: url("../img/bg_ask_call.jpg") no-repeat center center;
-    height: 350px;
-    padding-top: 58px;
+    height: 262px;
+    padding-top: 43px;
 }
 
 .btn_ask_call {
     display: inline-block;
     background: url("../img/bg_btn_askcall.png") repeat-x center center;
-    height: 122px;
-    line-height: 122px;
-    font-size: 56px;
+    height: 91px;
+    line-height: 91px;
+    font-size: 42px;
     box-shadow: none;
     padding: 0 125px;
-    text-shadow: 0 3px 1px #ffdc66;
+    text-shadow: 0 2px 1px #ffdc66;
 }
 
 .still_question {
-    font: 36px 'Segoe_UI_bold';
+    font: 27px 'Segoe_UI_bold';
     color: #ffffff;
-    margin: 0 0 50px;
+    margin: 0 0 37px;
 }
 
 .still_question span {
@@ -928,21 +928,21 @@ a.more{
 .steps {
     border-bottom: 1px solid #8d8d8d;
     background: url("../img/bg_steps.png") repeat-x center bottom;
-    min-height: 574px;
+    min-height: 430px;
 }
 
 .four_steps {
-    background: url("../img/bg_four_steps.png") no-repeat center 110px;
-    padding: 20px 50px;
+    background: url("../img/bg_four_steps.png") no-repeat center 88px;
+    padding: 20px 40px;
 }
 
 .four_steps li {
     float: left;
-    width: 225px;
-    margin-right: 60px;
-    padding-top: 150px;
+    width: 168px;
+    margin-right: 82px;
+    padding-top: 115px;
     text-align: left;
-    font: 18px 'Segoe_UI_light';
+    font: 13px 'Segoe_UI_light';
     background-repeat: no-repeat;
 }
 
@@ -951,7 +951,7 @@ a.more{
 }
 
 .four_steps li span {
-    font: 27px 'Segoe_UI_bold';
+    font: 20px 'Segoe_UI_bold';
 }
 
 .step_1 {
@@ -961,27 +961,27 @@ a.more{
 
 .step_2 {
     background-image: url("../img/step_bg_2.png");
-    background-position: 67px 5px;
+    background-position: 56px 5px;
 }
 
 .step_3 {
     background-image: url("../img/step_bg_3.png");
-    background-position: 67px top;
+    background-position: 48px top;
 }
 
 .step_4 {
     background-image: url("../img/step_bg_4.png");
-    background-position: 88px 5px;
+    background-position: 60px 5px;
 }
 
 .leave_offer {
     display: inline-block;
-    padding: 0 40px;
-    font: 11px 'Segoe_UI_light';
-    height: 39px;
-    line-height: 39px;
+    padding: 0 30px;
+    font: 15px 'Segoe_UI_light';
+    height: 29px;
+    line-height: 29px;
     background: url("../img/bg_btn_leaveoffer.png") repeat-x center center;
-    margin: 0 0 30px 50px;
+    margin: 0 0 22px 30px;
 }
 
 .comment {
