@@ -53,3 +53,21 @@ function popup_out() {
     $('body').find('label').removeClass('red');
     send = false;
 }
+
+$( document ).ready(function() {
+    $('.submit').click(function(e) {
+        e.preventDefault();
+
+        var postData = $(this).parents('form').serialize();
+
+        $.ajax({
+            type: "POST",
+            url: 'send_mail.php',
+            data: postData,
+            success: function(data) {
+                alert(data);
+            },
+            dataType: 'json'
+        });
+    })
+});
