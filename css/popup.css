@@ -1,3 +1,5 @@
+
+
 .popup_overlay {
 	width: 100%;
 	height: 100%;
@@ -11,7 +13,7 @@
 	position: fixed;
 	display: none;
 	z-index: 110;
-	padding: 30px;
+	padding:20px 30px;
 	background-color: #fff;
 }
 
@@ -51,9 +53,9 @@ label.red input, label.red textarea {
     left: 0px;
     top: -20px;
     font-family: 'Segoe_UI';
-    font-size: 16px;
+    font-size: 18px;
     color: #000;
-    line-height: 19px;
+    line-height: 20px;
     width: 200px;
     text-align: left;
 }
@@ -70,7 +72,7 @@ label.red input, label.red textarea {
 }
 
 .popup .name {
-    margin-bottom: 48px;
+    margin-bottom: 38px;
 }
 
 .popup .email {
@@ -118,17 +120,17 @@ label.red input, label.red textarea {
 
 .popup_h2 {
     font-family: 'Segoe_UI';
-    font-size: 16px;
+    font-size: 18px;
     color: #676767;
-    line-height: 19px;
+    line-height: 20px;
     text-align: center;
     margin-bottom: 35px;
 }
 
 .popup_close {
     position: absolute;
-    right: -30px;
-    top: -30px;
+    right: -15px;
+    top: -15px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
