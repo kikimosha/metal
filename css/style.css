@@ -58,12 +58,12 @@ p {
 }
 
 .btn_border {
-    border-radius: 15px;
+    border-radius: 7px;
     border: 1px solid #d99100;
     position:relative;
     z-index:10;
     text-shadow: #ffc942 0 1px 1px;
-    box-shadow: 1px 15px 10px #cfcfcf;
+    box-shadow: 1px 11px 7px #cfcfcf;
 }
 
 .btn_border:before {
@@ -76,24 +76,24 @@ p {
     right:0;
     bottom:0;
     border:1px solid #fadc8f;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 h2 {
-    font: 60px 'Segoe_UI_bold';
-    line-height: 43px;
+    font: 45px 'Segoe_UI_bold';
+    line-height: 32px;
 }
 
 h2:before {
    display: block;
-   margin: 0 0 20px 10px;
+   margin: 0 0 15px 8px;
    content: "";
-   height: 4px;
-   width: 240px;
+   height: 3px;
+   width: 180px;
 }
 
 h2 span {
-    font: 49px 'Segoe_UI_light';
+    font: 37px 'Segoe_UI_light';
     color: #000000;
 }
 
@@ -106,7 +106,7 @@ h2 span {
 }
 
 .mt60 {
-    margin-top: 60px !important;
+    margin-top: 45px !important;
 }
 
 /*HEADER*/
@@ -119,16 +119,16 @@ header {
 .logo {
     float: left;
     margin: 0 0 0 45px;
-    height: 120px;
-    width: 480px;
-    padding-left: 170px;
+    height: 90px;
+    width: 360px;
+    padding-left: 127px;
     background: url("../img/logo.png") no-repeat left center;
 }
 h1.logo {
     text-transform: uppercase;
     color: #7b7b7b;
-    line-height: 40px;
-    font: 30px 'Segoe_UI_bold';
+    line-height: 30px;
+    font: 22px 'Segoe_UI_bold';
     text-shadow: #c8c8c8 0 1px 1px;
 }
 
@@ -139,18 +139,18 @@ h1.logo span {
 
 .page .phone {
     float: right;
-    width: 275px;
+    width: 206px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 11px;
 }
 
 .page .phone>p {
-    height: 29px;
-    line-height: 29px;
-    background: url("../img/ic_phone.png") no-repeat 10px center;
-    padding-left: 30px;
+    height: 22px;
+    line-height: 22px;
+    background: url("../img/ic_phone.png") no-repeat 7px center;
+    padding-left: 22px;
     color: #7b7b7b;
-    font: 24px 'Segoe_UI_bold';
+    font: 18px 'Segoe_UI_bold';
 }
 
 .page .phone>p span {
@@ -158,13 +158,13 @@ h1.logo span {
 }
 
 .call_offer {
-    height:39px;
-    line-height: 39px;
+    height:29px;
+    line-height: 29px;
     display: inline-block;
-    font: 24px 'Segoe_UI';
-    padding: 0 38px;
+    font: 18px 'Segoe_UI';
+    padding: 0 29px;
     background: url("../img/bg_btn_call.png") repeat-x center center;
-    margin-top: 15px;
+    margin-top: 11px;
 }
 
 .line {
@@ -173,19 +173,19 @@ h1.logo span {
 }
 
 .main_menu {
-    margin: 20px auto 15px;
-    width: 610px;
+    margin: 15px auto 11px;
+    width: 457px;
 }
 
 .main_menu li {
     float: left;
-    padding: 0 15px;
+    padding: 0 11px;
 }
 
 .main_menu li a {
     display: block;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 13px;
+    line-height: 22px;
     text-transform: uppercase;
     border-bottom: 1px dashed #0a3b66;
 }
@@ -197,25 +197,25 @@ h1.logo span {
 }
 
 .title_bold {
-    font: 38px 'Segoe_UI_bold';
+    font: 28px 'Segoe_UI_bold';
 }
 
 .title_light {
-    font: 29px 'Segoe_UI_light';
-    margin-bottom: 35px;
+    font: 22px 'Segoe_UI_light';
+    margin-bottom: 26px;
 }
 
 .bg_main {
-    background: url("../img/bg_main.jpg") no-repeat center bottom;
-    height: 827px;
+    background: url("../img/bg_main.jpg") no-repeat center center;
+    height: 620px;
 }
 
 .know_more {
-    height: 82px;
-    line-height: 82px;
+    height: 61px;
+    line-height: 61px;
     display: inline-block;
-    padding: 0 60px;
-    font-size: 38px;
+    padding: 0 45px;
+    font-size: 28px;
     background: url("../img/bg_btn_know.png") repeat-x center center;
     box-shadow: none;
 }
@@ -224,75 +224,75 @@ h1.logo span {
     border-top: 1px solid #8d8d8d;
     border-bottom: 1px solid #8d8d8d;
     background: url("../img/bg_why_clients.png") repeat;
-    height: 550px;
-    margin-bottom: 20px;
+    height: 412px;
+    margin-bottom: 15px;
 }
 
 .offer {
     background: url("../img/stairs.png") no-repeat left 200px;
-    height: 696px;
+    height: 522px;
 }
 .counter_title {
     color: #18426a;
-    font: 20px/1.5 'Seguisb';
+    font: 15px/1.2 'Seguisb';
 }
 .blue_arrow {
     background: url("../img/offer_arrow.png") no-repeat left top;
     width: 268px;
     height: 239px;
-    margin: 30px 0 0 450px;
+    margin: 22px 0 0 450px;
 }
 .box_offer {
-    margin: 110px 0 0 0;
+    margin: 82px 0 0 0;
     float: right;
-    width: 350px;
-    height: 465px;
+    width: 262px;
+    height: 349px;
     border: 1px solid #d0cfbd;
     background: url("../img/bg_box_offer.gif") repeat 0 0;
-    border-radius: 30px;
-    padding: 25px 20px 10px;
-    box-shadow: 0 4px 0 #d9d9d9;
+    border-radius: 22px;
+    padding: 19px 15px 7px;
+    box-shadow: 0 3px 0 #d9d9d9;
 }
 .box_offer h1 {
     color: #053763;
-    font: 36px/41px 'Seguisb'; /** checked **/
+    font: 27px/31px 'Seguisb'; /** checked **/
     text-transform: uppercase;
     text-align: center;
-    margin: 0 0 10px 0;
+    margin: 0 0 7px 0;
 }
 .box_offer p {
     text-align: center;
     color: #000;
-    font: 30px 'Seguisb'; /** checked **/
+    font: 22px 'Seguisb'; /** checked **/
 }
 .box_offer p.light {
-    font: 24px 'Segoe_UI_light';
+    font: 18px 'Segoe_UI_light';
 }
 .box_offer span.blue {
     color: #23a7e5;
     text-transform: uppercase;
 }
 .box_offer form {
-    margin: 15px 0 0 0;
+    margin: 11px 0 0 0;
 }
 .box_offer form input {
     border: solid 1px #b9b9b9;
     color: #c4c4c4;
-    font-size: 17px;
-    width: 310px;
-    padding: 13px 20px;
-    margin: 5px 0;
+    font-size: 13px;
+    width: 232px;
+    padding: 10px 15px;
+    margin: 4px 0;
 }
 .btn_offer {
-    height:52px;
-    line-height: 52px;
+    height:39px;
+    line-height: 39px;
     display: inline-block;
-    font: 32px 'Segoe_UI';
-    padding: 0 65px;
+    font: 24px 'Segoe_UI';
+    padding: 0 49px;
     background-color:#ffc603;
-    margin: 15px auto 0 45px;
+    margin: 11px auto 0 34px;
     text-shadow: #ffc942 0 1px 1px;
-    box-shadow: 1px 10px 5px #cfcfcf;
+    box-shadow: 1px 7px 4px #cfcfcf;
 }
 .warranty {
     background: url("../img/bg_garantee.png") repeat-x bottom center;
@@ -335,18 +335,18 @@ h1.logo span {
 }
 
 .title_normal {
-    font: 42px 'Segoe_UI_light';
-    margin: 40px 0;
+    font: 31px 'Segoe_UI_light';
+    margin: 30px 0;
 }
 
 .our_advantage li {
     float: left;
     width: 187px;
-    height: 210px;
-    padding-top: 210px;
+    height: 157px;
+    padding-top: 157px;
     margin-right: 40px;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 22px;
     color: #053763;
     text-align: center;
 }
@@ -355,11 +355,11 @@ h1.logo span {
     margin-left: 40px;
 }
 .our_advantage li span {
-    font-size: 28px;
+    font-size: 21px;
 }
 
 .our_advantage li span.bold {
-    font: 40px 'Segoe_UI_bold';
+    font: 30px 'Segoe_UI_bold';
 }
 
 li.adv_1 {
@@ -384,7 +384,7 @@ li.adv_5 {
 
 h2.cl_blue {
     color: #009ae1;
-    margin-top: 50px;
+    margin-top: 37px;
 }
 
 h2.cl_blue:before {
@@ -393,7 +393,7 @@ h2.cl_blue:before {
 
 h2.cl_dark_blue {
     color: #053763;
-    margin-top: 50px;
+    margin-top: 37px;
 }
 
 h2.cl_dark_blue:before {
@@ -544,10 +544,10 @@ h2.cl_black:before {
     font: 26px 'Segoe_UI_light';
 }
 .box {
-    width: 372px;
-    height: 682px;
+    width: 279px;
+    height: 511px;
     border: 2px solid #ffffff;
-    border-radius: 30px;
+    border-radius: 22px;
     float: left;
     margin:0 22px 0 0;
 }

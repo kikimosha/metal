@@ -1,12 +1,12 @@
 .counter_container {
-	margin: 35px 0 0 70px;
-	width: 765px;
+	margin: 26px 0 0 52px;
+	width: 574px;
 	background-color: #ffffff;
 }
 
 .countdown_dashboard {
-	height: 125px;
-    width: 400px;
+	height: 94px;
+    width: 300px;
     margin: 0 auto;
 }
 
@@ -19,20 +19,20 @@
 
 .dash .digit {
     font-family: 'Segoe_UI', sans-serif;
-    font-size: 46px;
+    font-size: 34px;
 	font-weight: normal;
     padding: 0;
-    margin: 0 7px 0 0;
+    margin: 0 5px 0 0;
 	float: left;
-	width: 43px;
-    height: 68px;
+	width: 32px;
+    height: 51px;
 	text-align: center;
 	position: relative;
     background: transparent url('../img/dash.png') 0 0 no-repeat;
 }
 
 .dash_title {
-    font-size: 18px;
+    font-size: 13px;
     color: #1aa4e4;
     text-align: center;
 }
