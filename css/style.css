@@ -45,7 +45,7 @@ p {
 }
 
 .wrapper {
-    width: 1180px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -341,10 +341,10 @@ h1.logo span {
 
 .our_advantage li {
     float: left;
-    width: 187px;
+    width: 140px;
     height: 157px;
     padding-top: 157px;
-    margin-right: 40px;
+    margin-right: 52px;
     font-size: 18px;
     line-height: 22px;
     color: #053763;
@@ -430,9 +430,9 @@ h2.cl_yellow span {
 }
 
 .suitable {
-    background: url("../img/bg_suitable.jpg") no-repeat center -30px;
-    height: 960px;
-    margin-bottom: 20px;
+    background: url("../img/bg_suitable.jpg") no-repeat center -22px;
+    height: 720px;
+    margin-bottom: 15px;
 }
 
 h2.cl_white {
@@ -549,7 +549,7 @@ h2.cl_black:before {
     border: 2px solid #ffffff;
     border-radius: 22px;
     float: left;
-    margin:0 22px 0 0;
+    margin:0 75px 0 0;
 }
 .box:last-child {
     margin-right: 0;
@@ -614,9 +614,9 @@ h2.cl_black:before {
 .box h4 {
     text-align: left;
     text-transform: uppercase;
-    font: 30px 'Segoe_UI_bold';
-    margin: 15px 0 0 20px;
-    padding-bottom: 10px;
+    font: 22px 'Segoe_UI_bold';
+    margin: 11px 0 0 15px;
+    padding-bottom: 7px;
     width: 90%;
 }
 
@@ -636,20 +636,20 @@ h2.cl_black:before {
 }
 
 .box_img {
-    margin: 5px 0;
+    margin: 4px 0;
     text-align: center;
 }
 
 .box_ul {
-    margin: 10px 10px 0;
+    margin: 7px 7px 0;
 }
 
 .box_bg {
-    min-height: 84px;
-    width: 240px;
-    padding-left: 80px;
-    font-size: 20px;
-    line-height: 23px;
+    min-height: 63px;
+    width: 180px;
+    padding-left: 60px;
+    font-size: 15px;
+    line-height: 17px;
     background-position: 0 4px;
     background-repeat: no-repeat;
 }
@@ -719,8 +719,8 @@ h2.cl_black:before {
 }
 
 .price {
-    font-size: 24px;
-    margin: -5px 0 0;
+    font-size: 18px;
+    margin: -4px 0 0;
     text-transform: uppercase;
 }
 
@@ -737,19 +737,19 @@ h2.cl_black:before {
 }
 
 .price span {
-    font: 36px 'Segoe_UI_bold';
+    font: 27px 'Segoe_UI_bold';
 }
 
 a.more{
-    height: 50px;
+    height: 37px;
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
-    padding: 0 70px;
+    border-radius: 7px;
+    padding: 0 52px;
     display: inline-block;
-    font-size: 30px;
+    font-size: 22px;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 .box_1 a.more {
