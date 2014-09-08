@@ -404,7 +404,7 @@ h2.cl_gold:before {
     background-color: #ffaf00;
     position: absolute;
     top: 0;
-    left: 470px; /* ( 1180 - 240) / 2 */
+    left: 410px; /* ( 1180 - 240) / 2 */
 }
 
 h2.cl_gold {
@@ -777,34 +777,34 @@ a.more{
 .clock {
     margin: 10px 0 0;
     background: url("../img/clock.png") no-repeat center center;
-    height: 150px;
-    padding: 10px 0 30px;
+    height: 112px;
+    padding: 7px 0 22px;
 }
 
 .clock_date {
-    font: 36px 'Segoe_UI_bold';
+    font: 27px 'Segoe_UI_bold';
     float: left;
-    margin: 40px 0 0 270px;
+    margin: 30px 0 0 202px;
 }
 
 .clock_text {
-    font-size: 24px;
+    font-size: 18px;
     float: right;
     text-align: left;
-    margin: 30px 130px 0 0;
+    margin: 22px 97px 0 0;
 }
 
 .numbers {
-    margin: 10px 45px;
+    margin: 10px 34px;
 }
 
 .numbers li {
-    width: 190px;
+    width: 142px;
     float: left;
-    font: 24px 'Segoe_UI_light';
+    font: 18px 'Segoe_UI_light';
     text-align: center;
-    margin: 20px 35px 0 0;
-    padding-top: 120px;
+    margin: 15px 55px 15px 0;
+    padding-top: 90px;
 }
 
 .numbers li:last-child {
@@ -812,7 +812,7 @@ a.more{
 }
 
 .numbers li span {
-    font: 30px 'Segoe_UI_bold';
+    font: 22px 'Segoe_UI_bold';
 }
 
 .bg_num {
