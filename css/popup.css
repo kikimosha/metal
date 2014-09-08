@@ -62,17 +62,17 @@ label.red input, label.red textarea {
 
 .popup input[type="text"] {
     width: 403px;
-    height: 52px;
+    height: 45px;
     border: 1px solid #ccc;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Segoe_UI';
-    line-height: 30px;
+    line-height: 28px;
     color: #000;
 }
 
 .popup .name {
-    margin-bottom: 38px;
+    margin:20px auto 30px;
 }
 
 .popup .email {
@@ -110,11 +110,11 @@ label.red input, label.red textarea {
 }
 
 .popup_h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Segoe_UI_bold';
     color: #2f2f30;
     text-align: center;
-    line-height: 38px;
+    line-height: 32px;
     margin-bottom: 15px;
 }
 
@@ -124,7 +124,7 @@ label.red input, label.red textarea {
     color: #676767;
     line-height: 20px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .popup_close {
@@ -163,8 +163,9 @@ label.red input, label.red textarea {
 }
 
 .popup form {
-    width: 405px;
+    width: 550px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .popup#special {
@@ -562,4 +563,7 @@ textarea {
 .popup label.red input,
 .popup label.red textarea {
     border: 1px solid #f00 !important;
+}
+.ya_phone {
+    color: #000;
 }
