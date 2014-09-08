@@ -211,6 +211,7 @@ h1.logo span {
 }
 
 .know_more {
+    top: -15px;
     height: 61px;
     line-height: 61px;
     display: inline-block;

@@ -44,6 +44,7 @@
         <div class="popup_h2">Наш менеджер свяжется с вами в ближайшее время</div>
         <div class="btn" onClick="popup_out();">закрыть</div>
     </div>
+    <!-- Callback -->
     <div class="popup" id="callback">
         <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
         <div class="popup_h1">Заказать<br>обратный звонок</div>
@@ -51,7 +52,7 @@
             Просто введите свои данные<br>
             и мы свяжемся с Вами в течении 30 минут
         </div>
-        <form>
+        <form method="post" action="#">
             <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
             <label class="phone required">
                 <div class="desc">Введите Ваш телефон</div>
@@ -62,35 +63,168 @@
             </div>
         </form>
         <div class="descr">
-            или позвоните нам по телефону<br>
-            <span class="ya_phone">+7(343) 201-23-03</span>
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
         </div>
     </div>
-    <div class="popup" id="request">
+    <!-- MORE_INFO 1 -->
+    <div class="popup" id="more_info_1">
         <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
-        <div class="popup_h1">Заказать бесплатную<br>консультацию специалиста</div>
+        <div class="popup_h1">Узнайте подробнее<br>о металлических каркасах</div>
+        <div class="popup_h2">Мы расскажем Вам, почему наши каркасы пользуются таким спросом</div>
         <div class="popup_h2">
-            Введите ваше имя и телефон.<br>
-            Специалист компании Mokselle свяжется с вами,<br>
-            чтобы ответить на ваши вопросы.
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
         </div>
-        <form>
-            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label><br>
+        <form method="post" action="#">
+            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
             <label class="phone required">
                 <div class="desc">Введите Ваш телефон</div>
-                <input type="text" name="phone1" class="input_phone" maxlength="5" placeholder="+7" value="+7">
-            </label>
-            <label class="phone required">
-                <input type="text" name="phone2" class="input_phone" maxlength="6" placeholder="123">
-            </label>
-            <label class="phone required">
-                <input type="text" name="phone3" class="input_phone" maxlength="10" placeholder="4567890">
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
             </label><br>
-            <div data-name="request" class="button noselect btn">Получить бесплатную консультацию</div>
+            <div class="center">
+                <a data-name="callback" class="btn_border btn_middle_size" href="javascript:void(0);">Узнать подробнее</a>
+            </div>
         </form>
         <div class="descr">
-            или позвоните нам по телефону<br>
-            <span class="ya_phone">+7 (499) 271-77-43</span>
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
+        </div>
+    </div>
+    <!-- MORE_INFO 2 -->
+    <div class="popup" id="more_info_2">
+        <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+        <div class="popup_h1">Узнайте подробнее<br>о наших чистовых металлокаркасах</div>
+        <div class="popup_h2">Специалисты расскажут Вам, почему наши каркасы<br>пользуются таким спросом и как избежать лишних затрат</div>
+        <div class="popup_h2">
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
+        </div>
+        <form method="post" action="#">
+            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
+            <label class="phone required">
+                <div class="desc">Введите Ваш телефон</div>
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
+            </label><br>
+            <div class="center">
+                <a data-name="callback" class="btn_border btn_middle_size" href="javascript:void(0);">Получить бесплатную консультацию</a>
+            </div>
+        </form>
+        <div class="descr">
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
+        </div>
+    </div>
+    <!-- MORE_INFO 3 -->
+    <div class="popup" id="more_info_3">
+        <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+        <div class="popup_h1">Узнайте подробнее<br>о наших черновых металлокаркасах</div>
+        <div class="popup_h2">Мы расскажем Вам о каркасах, которые позволят<br>получить качественную лестницу и избежать лишних затрат</div>
+        <div class="popup_h2">
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
+        </div>
+        <form method="post" action="#">
+            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
+            <label class="phone required">
+                <div class="desc">Введите Ваш телефон</div>
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
+            </label><br>
+            <div class="center">
+                <a data-name="callback" class="btn_border btn_middle_size" href="javascript:void(0);">Получить бесплатную консультацию</a>
+            </div>
+        </form>
+        <div class="descr">
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
+        </div>
+    </div>
+    <!-- MORE_INFO 4 -->
+    <div class="popup" id="more_info_4">
+        <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+        <div class="popup_h1">Узнайте подробнее<br>о каркасах на центральном косоуре</div>
+        <div class="popup_h2">Наши специалисты расскажут Вам, почему наши каркасы<br>пользуются таким спросом и как избежать лишних затрат</div>
+        <div class="popup_h2">
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
+        </div>
+        <form method="post" action="#">
+            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
+            <label class="phone required">
+                <div class="desc">Введите Ваш телефон</div>
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
+            </label><br>
+            <div class="center">
+                <a data-name="callback" class="btn_border btn_middle_size" href="javascript:void(0);">Получить бесплатную консультацию</a>
+            </div>
+        </form>
+        <div class="descr">
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
+        </div>
+    </div>
+    <!-- MORE_INFO 5 -->
+    <div class="popup" id="more_info_5">
+        <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+        <div class="popup_h1">Закажите бесплатную консультацию</div>
+        <div class="popup_h2">Специалисты подберут Вам подходящий каркас,<br>который позволит Вам получить наиболее качественную лестницу</div>
+        <div class="popup_h2">
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
+        </div>
+        <form method="post" action="#">
+            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
+            <label class="phone required">
+                <div class="desc">Введите Ваш телефон</div>
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
+            </label><br>
+            <div class="center">
+                <a data-name="callback" class="btn_border btn_middle_size" href="javascript:void(0);">Получить бесплатную консультацию</a>
+            </div>
+        </form>
+        <div class="descr">
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
+        </div>
+    </div>
+    <!-- MORE_INFO 6 -->
+    <div class="popup" id="more_info_6">
+        <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+        <div class="popup_h1">Узнайте подробнее<br>о вариантах обшивки деревом</div>
+        <div class="popup_h2">Мы расскажем Вам как из голого металлокаркаса сделать лестницу,<br>которая станет украшением вашего дома</div>
+        <div class="popup_h2">
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
+        </div>
+        <form method="post" action="#">
+            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
+            <label class="phone required">
+                <div class="desc">Введите Ваш телефон</div>
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
+            </label><br>
+            <div class="center">
+                <a data-name="callback" class="btn_border btn_middle_size" href="javascript:void(0);">Узнать подробнее</a>
+            </div>
+        </form>
+        <div class="descr">
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
+        </div>
+    </div>
+    <!-- Zayavka -->
+    <div class="popup" id="zayavka">
+        <div class="popup_close noselect" onClick="popup_out();"><span>&nbsp;</span></div>
+        <div class="popup_h1">Оставьте заявку<br>на бесплатную консультацию</div>
+        <div class="popup_h2">Мы расскажем Вам о каркасах, которые позволят<br>получить качественную лестницу и избежать лишних затрат</div>
+        <div class="popup_h2">
+            Просто введите свои данные<br>
+            и мы свяжемся с Вами в течении 30 минут
+        </div>
+        <form method="post" action="#">
+            <label class="name required"><div class="desc">Введите Ваше имя</div><input type="text" name="name" class="input_name" placeholder="Иван Иванов"></label>
+            <label class="phone required">
+                <div class="desc">Введите Ваш телефон</div>
+                <input type="text" name="phone" class="input_phone" placeholder="+7 (123) 4567890">
+            </label><br>
+            <div class="center">
+                <a data-name="callback" class="btn_border btn_middle_size" href="javascript:void(0);">Оставить заявку</a>
+            </div>
+        </form>
+        <div class="descr">
+            или позвоните нам по телефону <span class="ya_phone">+7(343) 201-23-03</span>
         </div>
     </div>
 </noindex>
@@ -125,7 +259,7 @@
         </div>
         <div class="bg_main">
             <div class="wrapper center">
-                <a href="#" class="know_more btn_border">Узнать подробнее!</a>
+                <a href="javascript:popup('more_info_1', '');" class="know_more btn_border">Узнать подробнее!</a>
             </div>
         </div>
         <div class="why_clients">
@@ -219,7 +353,7 @@
                         </ul>
                         <p class="center price">Цена <span>от 65 000 р</span></p>
                         <div class="center">
-                            <a href="#" class="more">подробнее</a>
+                            <a href="javascript:popup('more_info_2', '');" class="more">подробнее</a>
                         </div>
                     </div>
                     <div class="box box_2">
@@ -234,7 +368,7 @@
                         </ul>
                         <p class="center price">Цена <span>от 47 000 р</span></p>
                         <div class="center">
-                            <a href="#" class="more">подробнее</a>
+                            <a href="javascript:popup('more_info_3', '');" class="more">подробнее</a>
                         </div>
                     </div>
                     <div class="box box_3">
@@ -248,7 +382,7 @@
                         </ul>
                         <p class="center price">Цена <span>от 75 000 р</span></p>
                         <div class="center">
-                            <a href="#" class="more">подробнее</a>
+                            <a href="javascript:popup('more_info_4', '');" class="more">подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -272,7 +406,7 @@
                     <li class="bg_num bg_num_5"><span>75</span><br>тонн металла ушло на изготовление</li>
                 </ul>
                 <div class="center">
-                    <a href="#" class="btn_middle_size btn_border">Закажите металлокаркас у профессионалов!</a>
+                    <a href="javascript:popup('more_info_5', '');" class="btn_middle_size btn_border">Закажите металлокаркас у профессионалов!</a>
                 </div>
             </div>
         <div class="line">
@@ -291,7 +425,7 @@
             <div class="wrapper">
                 <div class="center still_question"><span class="sq_bold">Остались вопросы?</span> Закажите звонок и наш специалист поможет подобрать <span>вам идеальный вариант.</span></div>
                 <div class="center">
-                    <a href="#" class="btn_border btn_ask_call">Заказать звонок!</a>
+                    <a href="javascript:popup('callback', '');" class="btn_border btn_ask_call">Заказать звонок!</a>
                 </div>
             </div>
         </div>
@@ -304,7 +438,7 @@
                     <li class="step_3"><span>3) Заключение договора</span></li>
                     <li class="step_4"><span>4) Производство и монтаж</span></li>
                 </ul>
-                <a href="#" class="btn_border leave_offer">Оставить заявку!</a>
+                <a href="javascript:popup('zayavka', '');" class="btn_border leave_offer">Оставить заявку!</a>
             </div>
         </div>
 
@@ -405,7 +539,7 @@
                     </div>
                     <div class="questions">
                         <p>Появились вопросы<br>по обшивке каркаса?</p>
-                        <a class="btn_border btn_middle_size mt60" href="#">Узнать подробнее!</a>
+                        <a class="btn_border btn_middle_size mt60" href="javascript:popup('more_info_6', '');">Узнать подробнее!</a>
                     </div>
                 </div>
             </div>
@@ -469,7 +603,7 @@
                     <img src="./img/wh_10.png" alt="Где делали 10">
                 </div>
                 <div class="center">
-                    <a class="btn_border btn_middle_size no_shadow" href="#">Закажите качественный металлокаркас!</a>
+                    <a class="btn_border btn_middle_size no_shadow" href="javascript:popup('more_info_5', '');">Закажите качественный металлокаркас!</a>
                 </div>
             </div>
         </div>
@@ -483,7 +617,7 @@
                     <div class="mail">info@keneg.ru</div>
                     <div class="phone">
                         <p><span>+7 (343) </span>201-23-03</p>
-                        <a href="#" class="call_offer btn_border">Заказать звонок!</a>
+                        <a href="javascript:popup('callback', '');" class="call_offer btn_border">Заказать звонок!</a>
                     </div>
                 </div>
             </div>
