@@ -496,7 +496,7 @@ h2.cl_black:before {
 }
 .slider {
     margin: 20px 0 0 0;
-    min-height: 700px;
+    min-height: 670px;
 }
 .slider_arrow {
     display: block;
@@ -506,7 +506,7 @@ h2.cl_black:before {
     top: 370px;
     text-align: center;
     font: 20px/23px 'Segoe_UI_italic';
-    padding-top: 55px;
+    padding-top: 40px;
 }
 #slider_arrow_prev {
     background: url("../img/slider_arrow_prev.png") no-repeat left top;
@@ -978,7 +978,7 @@ a.more{
 .leave_offer {
     display: inline-block;
     padding: 0 30px;
-    font: 15px 'Segoe_UI_light';
+    font: 15px 'Segoe_UI';
     height: 29px;
     line-height: 29px;
     background: url("../img/bg_btn_leaveoffer.png") repeat-x center center;
