@@ -278,11 +278,14 @@ h1.logo span {
 }
 .box_offer form input {
     border: solid 1px #b9b9b9;
-    color: #c4c4c4;
+    color: #000;
     font-size: 13px;
     width: 232px;
     padding: 10px 15px;
     margin: 4px 0;
+}
+.box_offer form input::-moz-placeholder {
+    color: #c4c4c4;
 }
 .btn_offer {
     height:39px;
