@@ -1,16 +1,16 @@
 <?php
-require '/libs/PHPMailerAutoload.php';
+require 'PHPMailerAutoload.php';
 
-$mail = new PHPMailer;
+$mail = new PHPMailer();
 
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
+$mail->SMTPDebug = 3;                               // Enable verbose debug output
+$mail->CharSet = "utf-8";
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.keneg.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'info@keneg.ru';                 // SMTP username
 $mail->Password = '8KyoGB5Kn2';                           // SMTP password
-//$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+//$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 25;                                    // TCP port to connect to
 
 $mail->From = 'info@keneg.ru';
@@ -26,6 +26,5 @@ $mail->Body    = '<b>Имя: </b>' . $_POST['name'] . '<br><b>Телефон: </
 if(!$mail->send()) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    echo 'Message has been sent';
 }
+

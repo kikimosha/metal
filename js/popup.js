@@ -136,11 +136,18 @@ $( document ).ready(function() {
             var	ref = $('input[name="referer"]').val();
             ref = ref+request_url;
             var formname = $('input[name="formname"]').val();
-            var data = "name="+name+"&phone="+phone+"&"+sbt+"="+submit+"&email="+email+"&ques="+ques+"&formname="+formname+"&ref="+ref;
+            var data = "name="+name +"&phone="+phone;
+            if (typeof(email) !== 'undefined') {
+                data += "&email="+email;
+            }
+//                +"&"+sbt+"="+submit
+//                +"&ques="+ques
+//                +"&formname="+formname;
+//                +"&ref="+ref;
 
             $.ajax({
                 type: "POST",
-                url: 'send_mail.php',
+                url: '/send_mail.php',
 //                dataType: "json",
                 data: data
             }).error(function(err) {
