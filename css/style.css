@@ -174,7 +174,7 @@ h1.logo span {
 
 .main_menu {
     margin: 15px auto 11px;
-    width: 457px;
+    width: 480px;
 }
 
 .main_menu li {
@@ -184,7 +184,7 @@ h1.logo span {
 
 .main_menu li a {
     display: block;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 22px;
     text-transform: uppercase;
     border-bottom: 1px dashed #0a3b66;
