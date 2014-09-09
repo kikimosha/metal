@@ -1041,7 +1041,7 @@ p.com_title {
 }
 
 .where {
-    background: url("../img/bg_where.jpg") no-repeat center center;
+    background: url("../img/bg_where.jpg") no-repeat center top;
 }
 
 .justify-image {
