@@ -54,20 +54,100 @@ function popup_out() {
     send = false;
 }
 
+function thx() {
+    $('.popup').hide();
+    $('.work_popup').hide();
+    $('.popup').removeClass('activePopup');
+    $('.work_popup').removeClass('activePopup');
+    $('.work_popup').html('');
+    popup('thx', '');
+    $('input[type="text"]:not(input[name="phone1"])').each(function(){
+        $(this).val('');
+    });
+    $('textarea').val('');
+}
+
+function checkForm(form1) {
+
+    var $form = $(form1),
+        checker = true,
+        name = $("input[name='name']", $form).val(),
+        phone = $("input[name='phone']", $form).val(),
+        email = $("input[name='email']", $form).val();
+
+    if($form.find(".name").hasClass("required")) {
+        if(!name) {
+            $form.find(".name").addClass("red");
+            checker = false;
+        } else {
+            $form.find(".name").removeClass('red');
+        }
+    }
+
+    if($form.find(".phone").hasClass("required")) {
+        if(!phone) {
+            $form.find(".phone").addClass("red");
+            checker = false;
+        } else if(/[^0-9+]/.test(phone)) {
+            $form.find(".phone").addClass("red");
+            checker = false;
+        } else {
+            $form.find(".phone").removeClass("red");
+        }
+    }
+
+    if($form.find(".email").hasClass("required")) {
+        if(!email) {
+            $form.find(".email").addClass("red");
+            checker = false;
+        } else if(!/^[\.A-z0-9_\-\+]+[@][A-z0-9_\-]+([.][A-z0-9_\-]+)+[A-z]{1,4}$/.test(email)) {
+            $form.find(".email").addClass("red");
+            checker = false;
+        } else {
+            $form.find(".email").removeClass("red");
+        }
+    }
+
+    if(checker != true) { return false; }
+}
+
+var send = false;
+
 $( document ).ready(function() {
-    $('.submit').click(function(e) {
-        e.preventDefault();
 
-        var postData = $(this).parents('form').serialize();
+    $('.submit').click(function() {
+        $('body').find('form:not(this)').children('label').removeClass('red');
 
-        $.ajax({
-            type: "POST",
-            url: 'send_mail.php',
-            data: postData,
-            success: function(data) {
-                alert(data);
-            },
-            dataType: 'json'
-        });
-    })
+        var request_url = '\n'+$('input[name="ref_url"]').val().toString().replace(/&/g, '\n');
+
+        var $form = $(this).parents('form').get(0);
+        var answer = checkForm($form);
+        if(answer != false && send == false)
+        {
+            send = true;
+            var name = $('input[name="name"]', $form).val(),
+                phone = $('input[name="phone"]', $form).val(),
+                email = $('input[name="email"]', $form).val(),
+                ques = $('textarea[name="ques"]', $form).val(),
+                sbt = $('.submit', $form).attr("data-name"),
+                submit = $('.submit', $form).text();
+
+            //submit = $('input[name='+sbt+']', $form).val();
+            var	ref = $('input[name="referer"]').val();
+            ref = ref+request_url;
+            var formname = $('input[name="formname"]').val();
+            var data = "name="+name+"&phone="+phone+"&"+sbt+"="+submit+"&email="+email+"&ques="+ques+"&formname="+formname+"&ref="+ref;
+
+            $.ajax({
+                type: "POST",
+                url: 'send_mail.php',
+//                dataType: "json",
+                data: data
+            }).error(function(err) {
+                console.log(err);
+            }).always(function() {
+                thx();
+            });
+        }
+    });
 });
