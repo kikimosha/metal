@@ -213,7 +213,7 @@ h1.logo span {
 .know_more {
     top: -15px;
     height: 61px;
-    line-height: 61px;
+    line-height: 56px;
     display: inline-block;
     padding: 0 45px;
     font-size: 28px;
@@ -802,7 +802,7 @@ a.more{
 .numbers li {
     width: 142px;
     float: left;
-    font: 18px 'Segoe_UI_light';
+    font: 18px 'Segoe_UI';
     text-align: center;
     margin: 15px 55px 15px 0;
     padding-top: 90px;
@@ -852,7 +852,7 @@ a.more{
     margin: 0 0 10px;
     font-size: 29px;
     height: 62px;
-    line-height: 62px;
+    line-height: 56px;
     background: url("../img/bg_btn_offer.png") repeat-x center center;
 }
 
@@ -866,13 +866,14 @@ a.more{
     margin-right: 82px;
     padding-top:120px;
     text-align: center;
-    font: 14px 'Segoe_UI_light', sans-serif;
+    font: 15px 'Segoe_UI', sans-serif;
     background-repeat: no-repeat;
     background-position: top center;
 }
 
 .privilege li span {
     font-family: 'Segoe_UI_bold', sans-serif;
+    font-size: 16px;
 }
 
 .privilege li:last-child {
@@ -905,7 +906,7 @@ a.more{
     display: inline-block;
     background: url("../img/bg_btn_askcall.png") repeat-x center center;
     height: 91px;
-    line-height: 87px;
+    line-height: 81px;
     font-size: 42px;
     box-shadow: none;
     padding: 0 125px;
@@ -952,7 +953,7 @@ a.more{
 }
 
 .four_steps li span {
-    font: 20px 'Segoe_UI_bold';
+    font: 20px 'Seguisb';
 }
 
 .step_1 {
@@ -980,13 +981,13 @@ a.more{
     padding: 0 30px;
     font: 15px 'Segoe_UI';
     height: 29px;
-    line-height: 29px;
+    line-height: 26px;
     background: url("../img/bg_btn_leaveoffer.png") repeat-x center center;
     margin: 0 0 22px 30px;
 }
 
 .comment {
-    height: 750px;
+    height: 770px;
     background: url("../img/bg_comment.jpg") no-repeat center top;
 }
 
@@ -1021,7 +1022,7 @@ a.more{
 }
 
 .com_text p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     color: #ffffff;
 }
@@ -1032,7 +1033,7 @@ p.com_title {
 
 .btn_comment {
     height: 43px;
-    line-height: 43px;
+    line-height: 40px;
     display: inline-block;
     background: url("../img/bg_btn_comment.png") repeat-x center center;
     padding: 0 33px;
@@ -1042,6 +1043,7 @@ p.com_title {
 
 .where {
     background: url("../img/bg_where.jpg") no-repeat center top;
+    height: 630px;
 }
 
 .justify-image {
