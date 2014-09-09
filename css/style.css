@@ -137,14 +137,14 @@ h1.logo span {
     text-shadow: #aaaaaa 0 1px 1px;
 }
 
-.page .phone {
+.page .phone_icon {
     float: right;
     width: 206px;
     text-align: center;
     margin-top: 11px;
 }
 
-.page .phone>p {
+.page .phone_icon>p {
     height: 22px;
     line-height: 22px;
     background: url("../img/ic_phone.png") no-repeat 7px center;
@@ -153,7 +153,7 @@ h1.logo span {
     font: 18px 'Segoe_UI_bold';
 }
 
-.page .phone>p span {
+.page .phone_icon>p span {
     color: #000000;
 }
 

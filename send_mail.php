@@ -21,7 +21,12 @@ $mail->WordWrap = 50;                                 // Set word wrap to 50 cha
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заказ обратного звонка с сайта keneg.ru';
-$mail->Body    = '<b>Имя: </b>' . $_POST['name'] . '<br><b>Телефон: </b>' . $_POST['phone'];
+$mailBody  = '<b>Имя: </b>' . $_POST['name'] . '<br><b>Телефон: </b>' . $_POST['phone'];
+
+if (!empty($_POST['email'])) {
+    $mailBody .= '<br><b>E-mail:</b>' . $_POST['email'];
+}
+$mail->Body = $mailBody;
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
