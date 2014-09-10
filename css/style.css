@@ -943,11 +943,11 @@ a.more{
 
 .four_steps li {
     float: left;
-    width: 160px;
-    margin-right: 85px;
+    width: 168px;
+    margin-right: 70px;
     padding-top: 115px;
     text-align: left;
-    font: 13px 'Segoe_UI_light';
+    font: 13px 'Segoe_UI';
     background-repeat: no-repeat;
 }
 
@@ -962,22 +962,22 @@ a.more{
 .step_1 {
     background-image: url("../img/step_bg_1.png");
     background-position: 37px top;
-    margin-right: 110px !important;
+    margin-right: 105px !important;
 }
 
 .step_2 {
     background-image: url("../img/step_bg_2.png");
-    background-position: 56px 5px;
+    background-position: 34px 5px;
 }
 
 .step_3 {
     background-image: url("../img/step_bg_3.png");
-    background-position: 48px top;
+    background-position: 38px top;
 }
 
 .step_4 {
     background-image: url("../img/step_bg_4.png");
-    background-position: 60px 5px;
+    background-position: 61px 5px;
 }
 
 .leave_offer {
