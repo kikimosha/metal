@@ -13,6 +13,7 @@
 .dash {
 	float: left;
 	margin: 0;
+    max-width: 74px;
 	position: relative;
 	color: #242527;
 }
