@@ -108,8 +108,7 @@ label.red input, label.red textarea {
     font-size: 24px;
     line-height: 50px;
 }
-
-.popup_h1 {
+.popup_h0 {
     font-size: 30px;
     font-family: 'Segoe_UI_bold';
     color: #2f2f30;
@@ -117,7 +116,14 @@ label.red input, label.red textarea {
     line-height: 32px;
     margin-bottom: 15px;
 }
-
+.popup_h1 {
+    font-size: 20px;
+    font-family: 'Segoe_UI_bold';
+    color: #2f2f30;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
 .popup_h2 {
     font-family: 'Segoe_UI';
     font-size: 18px;
